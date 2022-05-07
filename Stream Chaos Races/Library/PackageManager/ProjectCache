@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637875339635996086
-    m_Hash: 3972845118
+      ticks: 637875366924322257
+    m_Hash: 3011458207
   m_LockFileStatus:
     m_FilePath: E:/StreamChaosRaces/Stream Chaos Races/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637875339636676720
-    m_Hash: 1802650461
+      ticks: 637875366925382627
+    m_Hash: 1090205221
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -151,12 +151,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.8.4
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.15.16
+- packageId: com.unity.collab-proxy@1.15.17
   testable: 0
   isDirectDependency: 1
-  version: 1.15.16
+  version: 1.15.17
   source: 1
-  resolvedPath: E:\StreamChaosRaces\Stream Chaos Races\Library\PackageCache\com.unity.collab-proxy@1.15.16
+  resolvedPath: E:\StreamChaosRaces\Stream Chaos Races\Library\PackageCache\com.unity.collab-proxy@1.15.17
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -275,13 +275,13 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637847776260000000
+  datePublishedTicks: 637871149130000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 714a2838c2d55add3d0accf539488f96caa757b2
+    revision: fd95d00c5a7961beec85ee190181439d53fb0dba
     path: 
   unityLifecycle:
     version: 1.15.15

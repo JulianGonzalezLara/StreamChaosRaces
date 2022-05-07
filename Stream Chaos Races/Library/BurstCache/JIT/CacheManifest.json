@@ -7,7 +7,7 @@
     },
     {
       "FullName": "Unity.Barracuda, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-05-07T15:26:22.426203Z"
+      "LastWriteTime": "2022-05-07T16:11:43.4512777Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -23,15 +23,15 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-05-07T15:26:20.4027389Z"
+      "LastWriteTime": "2022-05-07T16:11:42.0574564Z"
     },
     {
       "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-05-07T15:26:19.410782Z"
+      "LastWriteTime": "2022-05-07T16:11:41.7451726Z"
     },
     {
       "FullName": "Unity.Barracuda.BurstBLAS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-05-07T15:26:22.5423088Z"
+      "LastWriteTime": "2022-05-07T16:11:43.522848Z"
     }
   ],
   "Functions": [
@@ -55,8 +55,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
-        3
+        3,
+        2
       ]
     },
     {
@@ -164,8 +164,8 @@
         0,
         1,
         4,
-        3,
-        2
+        2,
+        3
       ]
     },
     {
@@ -223,9 +223,9 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        5,
         2,
-        3
+        3,
+        5
       ]
     },
     {
@@ -300,9 +300,9 @@
       "AssemblyDependencyIndices": [
         0,
         1,
+        5,
         2,
-        3,
-        5
+        3
       ]
     },
     {
