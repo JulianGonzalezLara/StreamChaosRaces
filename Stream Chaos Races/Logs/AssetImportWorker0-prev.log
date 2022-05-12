@@ -1,0 +1,534 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.1f1 (3b70a0754835) revision 3895456'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'es' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/StreamChaosRaces/Stream Chaos Races
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59599
+Successfully changed project path to: E:/StreamChaosRaces/Stream Chaos Races
+E:/StreamChaosRaces/Stream Chaos Races
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 90.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/StreamChaosRaces/Stream Chaos Races/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12137 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008685 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 93.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (599ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008717 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\Stream Chaos Races\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\Stream Chaos Races\Library\PackageCache\com.unity.visualscripting@1.7.7\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 84.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (435ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (21.1 MB). Loaded Objects now: 4484.
+Memory consumption went from 190.7 MB to 169.6 MB.
+Total: 6.418400 ms (FindLiveObjects: 0.337800 ms CreateObjectMapping: 0.097500 ms MarkObjects: 2.546900 ms  DeleteObjects: 3.434700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 306.254471 seconds.
+  path: Assets/Prefabs/roadCornerSmall.prefab
+  artifactKey: Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerSmall.prefab using Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cd371cf4b032daede124cf97660612') in 0.100680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11755798412e84237df2b335e713a6e2') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/roadCornerSmallBorder.prefab
+  artifactKey: Guid(a821894a0f9fd9344a82b36ff8ee313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerSmallBorder.prefab using Guid(a821894a0f9fd9344a82b36ff8ee313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ae16087387ccbc1d899ae62a55ed22') in 0.019273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.413103 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353fa3274c5c43c5161887f46775e280') in 0.013151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.674329 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2007084da5050e6464e854643eeabc') in 0.017481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.413723 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6064ae030e9f36225d35b46677076593') in 0.025102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.447661 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4b5844978b24f30d678cb2feb62b6b') in 0.023667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.853147 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac03e80cdb7afa086a0d47808df0263') in 0.023776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.781360 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455146aa5b36b54e69208add31840a21') in 0.015411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.612253 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18c441e7e38d3ad341a466622a5ef8e') in 0.016021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.437835 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40aa75434b7267b15543c48074627cd2') in 0.030615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.858955 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a571a45691b527d215c35d97f6bc8b') in 0.008399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.024151 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67acc3e5131c25371af9a8e86bba2c8a') in 0.007875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.203747 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89ddc92f3b545975c0856e910d1f4a6') in 0.008384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.295126 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe574118f2577e39c87b4518c472b913') in 0.021791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.053449 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3f52bee7942bd4186f84b87db2dc09') in 0.010210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.627891 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba7bf837bef43431ea50ab741a03721') in 0.015848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.412571 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11033323ae72509ece9af0ad47e3bfc2') in 0.018720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.401451 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7add8228da075ccc3102b5b02d9f705b') in 0.009409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.594323 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1012eb2c234c451c929ff81ba8c322f7') in 0.011352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.385528 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c663c69f7b036e5ac6d1adeabf9e5f6') in 0.007836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.506867 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c821ae48bb0e4b04b96f786c21f8e04') in 0.014845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.229330 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec64546ffec3858e80e73164b4d8b7a6') in 0.009230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.215410 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1027f5a2e95403c3ee5847a90c12cbbc') in 0.009140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.206174 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c80703df5322214ba848ee6e7a2a29') in 0.012770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.202635 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f4a68d913f2a30f3033c37ab93450b') in 0.008013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.068500 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3f8f688f233e5db1c9d22efc2bdb77') in 0.010144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.851293 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ec1a0af81d5746e835c33d01b83905') in 0.012858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.610066 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff77dca63c32be0f34a3e75667b074c5') in 0.011368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.211065 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b106f8e05992380ca9f6cf910a23df2') in 0.015634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.211376 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fa2d1228b23f51d6b2a2a3759b663d') in 0.010930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.759491 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6478f1fa0bac3845ce3dac6c46df5301') in 0.014117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.449471 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392ec17696dc6afc12154b667efea1fe') in 0.010113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.217169 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b616befbec93fb0c9aebfb8a1f33e7') in 0.008231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.601767 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701c1514c9fd33eb02015937e2975a31') in 0.014754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.417436 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61a9330fbe1de71fd7dd1f388cd8378') in 0.009943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.055596 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb1a134797d3d1138ecf1ea056d9180') in 0.008412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.009089 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d9e5238bac3b60ae087cce630abebe') in 0.009132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.445077 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9505fef5595698ad40069e69174eb2a') in 0.010099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.234167 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a490da2c3898979539c35a67fbe40cd') in 0.007689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.414416 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dbee9d06340a350a7a2cacb4abf7e1') in 0.008348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.440390 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939d1f7f7767406dd50da9c4a9058358') in 0.017378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.871976 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b53be8ee266b51a7ebc32c55cb169e') in 0.008341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.672647 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fe83333e54b96cc2415fe54de600dd') in 0.008504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.400789 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db0f172c2cefdc77d4e309d81f7da65') in 0.008754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.224954 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02577b2b31ab0fb5485dcfd793a40dc7') in 0.020697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.896588 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae54973b5f06d27caed3d3786451e3c3') in 0.009486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.841628 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8baeca8420f1f55dd49005095cd6103e') in 0.007820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.028777 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21ff35f1dc120561489b03b529c06d8') in 0.008679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.354111 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f31f339dce3d3072280137847d2458b') in 0.010932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.844285 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361fce467d365f6a8998d1752eccc545') in 0.008106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.602702 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2735d7afe8586b1fa150647c96c6c8') in 0.009071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.628417 seconds.
+  path: Assets/Prefabs/roadCornerLarge 1.prefab
+  artifactKey: Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerLarge 1.prefab using Guid(f8e7095019e1fa84e8c07d92c62e2958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89db9e86657238d3421ef95686cf31e4') in 0.011296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.862589 seconds.
+  path: Assets/Prefabs/roadCornerSmall.prefab
+  artifactKey: Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerSmall.prefab using Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a501da27be408fa5e9f8b28dcb06dee1') in 0.014893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.456828 seconds.
+  path: Assets/Prefabs/roadCornerSmall.prefab
+  artifactKey: Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerSmall.prefab using Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babf6943be6dab9f80f538ada70c38bd') in 0.023432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.315483 seconds.
+  path: Assets/Prefabs/roadCornerSmall.prefab
+  artifactKey: Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerSmall.prefab using Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca37a21b346da815b7b17b05e71ed07') in 0.017414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.436101 seconds.
+  path: Assets/Prefabs/roadCornerSmall.prefab
+  artifactKey: Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerSmall.prefab using Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a8e0b1b5d29308701e9c99e9de461a') in 0.018820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.895784 seconds.
+  path: Assets/Prefabs/roadCornerSmall.prefab
+  artifactKey: Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerSmall.prefab using Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdade87ab315244485fcd600516e360') in 0.013053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.210517 seconds.
+  path: Assets/Prefabs/roadCornerSmall.prefab
+  artifactKey: Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadCornerSmall.prefab using Guid(652df67edf384284ca050f9b9ac2a960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e34c74e9a410a51f0dc985e90e4db4') in 0.012783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11608.820348 seconds.
+  path: Assets/Prefabs/roadStraightSkew.prefab
+  artifactKey: Guid(017e5639e601cd8419f8ecedb77aa6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadStraightSkew.prefab using Guid(017e5639e601cd8419f8ecedb77aa6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cd7f178e49bba00a7c812d6c10ace1') in 0.030777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.374468 seconds.
+  path: Assets/Prefabs/roadStraightSkew.prefab
+  artifactKey: Guid(017e5639e601cd8419f8ecedb77aa6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadStraightSkew.prefab using Guid(017e5639e601cd8419f8ecedb77aa6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d2aa67a24882906d4e86cc87688adb') in 0.015678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.921713 seconds.
+  path: Assets/Prefabs/roadStraightSkew.prefab
+  artifactKey: Guid(017e5639e601cd8419f8ecedb77aa6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/roadStraightSkew.prefab using Guid(017e5639e601cd8419f8ecedb77aa6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216142c6d40111f4debb7bde980ac570') in 0.019528 seconds 
