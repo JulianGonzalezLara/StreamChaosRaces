@@ -377,6 +377,7 @@
 "Assets/PROMETEO - Car Controller/Scripts/CameraFollow.cs"
 "Assets/PROMETEO - Car Controller/Scripts/PrometeoCarController.cs"
 "Assets/PROMETEO - Car Controller/Scripts/PrometeoTouchInput.cs"
+"Assets/Scripts/CarAgent.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/TwitchChatConnect/Example/MiniGame/Scripts/Game.cs"
 "Assets/TwitchChatConnect/Example/MiniGame/Scripts/GameExpert.cs"
