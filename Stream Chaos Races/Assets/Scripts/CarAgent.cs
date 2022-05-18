@@ -7,7 +7,31 @@ using Unity.MLAgents.Actuators;
 
 public class CarAgent : Agent
 {
-    public GameObject[] Target;
+    [SerializeField]
+    private Transform spawnPosition;
+
+    private PrometeoCarController carController;
+
+    private void Awake()
+    {
+        carController = GetComponent<PrometeoCarController>();
+    }
+
+    public override void OnEpisodeBegin()
+    {
+        transform.position = spawnPosition.position + new Vector3(Random.Range(-5f, +5f), 0, Random.Range(-5f, +5f));
+        transform.forward = spawnPosition.forward;
+
+    }
+
+    public override void CollectObservations(VectorSensor sensor)
+    {
+        //Vector3 checkpointForward = 
+    }
+
+
+    //Parte vieja
+    /*public GameObject[] Target;
     public float forceMultiplier = 10;
     private bool primeraEjecucion = true;
     private int contador = 0;
@@ -87,5 +111,5 @@ public class CarAgent : Agent
         var continuousActionsOut = actionsOut.ContinuousActions;
         continuousActionsOut[0] = Input.GetAxis("Horizontal");
         continuousActionsOut[1] = Input.GetAxis("Vertical");
-    }
+    }*/
 }

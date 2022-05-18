@@ -771,4 +771,28 @@ public class PrometeoCarController : MonoBehaviour
       }
     }
 
+    public void SetInputs(float forwardAmount, float turnAmount)
+    {
+        switch (forwardAmount)
+        {
+            case +1f:
+                GoForward();
+                break;
+            case -1f:
+                GoReverse();
+                break;
+        }
+
+        switch (turnAmount)
+        {
+            case +1f:
+                TurnRight();
+                break;
+            case -1f:
+                TurnLeft();
+                break;
+        }
+
+    }
+
 }
