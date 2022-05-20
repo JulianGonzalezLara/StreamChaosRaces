@@ -8,7 +8,8 @@ using Unity.MLAgents.Actuators;
 public class CarAgent : Agent
 {
     [SerializeField]
-    private Transform spawnPosition;
+    private TrackCheckpoints trackCheckpoints;
+    //[SerializeField] private Transform spawnPosition;
 
     private PrometeoCarController carController;
 
@@ -17,99 +18,115 @@ public class CarAgent : Agent
         carController = GetComponent<PrometeoCarController>();
     }
 
+    private void Start()
+    {
+        /*trackCheckpoints.OnCarCorrectCheckpoint += TrackCheckpoints_OnCarCorrectCheckpoint;
+        trackCheckpoints.OnCarWrongCheckpoint += TrackCheckpoints_OnCarWrongCheckpoint;*/
+    }
+
+    /*private void TrackCheckpoints_OnCarWrongCheckpoint(object sender, TrackCheckpoints.CarCheckpointEventArgs e)
+    {
+        if(e.carTransform == transform)
+        {
+            AddReward(-1f);
+        }
+    }
+
+    private void TrackCheckpoints_OnCarCorrectCheckpoint(object sender, TrackCheckpoints.CarCheckpointEventArgs e)
+    {
+        if (e.carTransform == transform)
+        {
+            AddReward(1f);
+        }
+    }*/
+
     public override void OnEpisodeBegin()
     {
-        transform.position = spawnPosition.position + new Vector3(Random.Range(-5f, +5f), 0, Random.Range(-5f, +5f));
-        transform.forward = spawnPosition.forward;
-
+        /*transform.position = spawnPosition.position + new Vector3(Random.Range(-5f, +5f), 0, Random.Range(-5f, +5f));
+        transform.forward = spawnPosition.forward;*/
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        //Vector3 checkpointForward = 
+        Debug.Log("CollectObservations");
+        Vector3 checkpointForward = trackCheckpoints.GetNextCheckpoint(transform).transform.forward;
+        float directionDot = Vector3.Dot(transform.forward, checkpointForward);
+        sensor.AddObservation(directionDot);
     }
 
-
-    //Parte vieja
-    /*public GameObject[] Target;
-    public float forceMultiplier = 10;
-    private bool primeraEjecucion = true;
-    private int contador = 0;
-
-    Rigidbody rBody;
-    // Start is called before the first frame update
-    void Start()
+    public override void OnActionReceived(ActionBuffers actions)
     {
-        rBody = GetComponent<Rigidbody>();
-        Target = GameObject.FindGameObjectsWithTag("CheckPoint");
-    }
+        float forwardAmount = 0f;
+        float turnAmount = 0f;
 
-    public override void OnEpisodeBegin()
-    {
-        // If the Agent fell, zero its momentum
-        if (this.transform.localPosition.y < 0)
+        switch (actions.DiscreteActions[0])
         {
-            this.rBody.angularVelocity = Vector3.zero;
-            this.rBody.velocity = Vector3.zero;
-            this.transform.localPosition = new Vector3(0, 0.5f, 0);
+            case 0:
+                forwardAmount = 0f;
+                break;
+            case 1:
+                forwardAmount = +1f;
+                break;
+            case 2:
+                forwardAmount = -1f;
+                break;
+        }
+        switch (actions.DiscreteActions[1])
+        {
+            case 0:
+                turnAmount = 0f;
+                break;
+            case 1:
+                turnAmount = +1f;
+                break;
+            case 2:
+                turnAmount = -1f;
+                break;
         }
 
-        if (primeraEjecucion)
-        {
-            primeraEjecucion=false;
-        }
-        else
-        {
-            contador++;
-        }
-
-        if(contador== Target.Length)
-        {
-            contador = 0;
-        }
-    }
-
-    public override void CollectObservations(VectorSensor sensor)
-    {
-        // Target and Agent positions
-        sensor.AddObservation(Target[contador].transform.localPosition);
-        sensor.AddObservation(this.transform.localPosition);
-
-        // Agent velocity
-        sensor.AddObservation(rBody.velocity.x);
-        sensor.AddObservation(rBody.velocity.z);
-    }
-
-    public override void OnActionReceived(ActionBuffers actionBuffers)
-    {
-        // Actions, size = 2
-        Vector3 controlSignal = Vector3.zero;
-        controlSignal.x = actionBuffers.ContinuousActions[0];
-        controlSignal.z = actionBuffers.ContinuousActions[1];
-        rBody.AddForce(controlSignal * forceMultiplier);
-
-        // Rewards
-        float distanceToTarget = Vector3.Distance(this.transform.localPosition, Target[contador].transform.localPosition);
-
-        // Reached target
-        if (distanceToTarget < 1.42f)
-        {
-            SetReward(1.0f);
-            EndEpisode();
-        }
-
-        // Fell off platform
-        else if (this.transform.localPosition.y < 0)
-        {
-            SetReward(-5.0f);
-            EndEpisode();
-        }
+        carController.SetInputs(forwardAmount, turnAmount);
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
     {
-        var continuousActionsOut = actionsOut.ContinuousActions;
-        continuousActionsOut[0] = Input.GetAxis("Horizontal");
-        continuousActionsOut[1] = Input.GetAxis("Vertical");
-    }*/
+        int forwardAction = 0;
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            forwardAction = 1;
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            forwardAction = 2;
+        }
+
+        int turnAction = 0;
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            forwardAction = 1;
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            forwardAction = 2;
+        }
+
+        ActionSegment<int> discreteActions = actionsOut.DiscreteActions;
+        discreteActions[0] = forwardAction;
+        discreteActions[1] = turnAction;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Wall"))
+        {
+            AddReward(-0.5f);
+        }
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            AddReward(-0.1f);
+        }
+    }
 }
