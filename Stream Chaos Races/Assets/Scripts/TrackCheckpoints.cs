@@ -16,7 +16,7 @@ public class TrackCheckpoints : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("Awake");
+        //Debug.Log("Awake");
         Transform checkpointsTransform = transform.Find("CheckPoints");
 
         checkpointSingleList = new List<CheckpointSingle>();
@@ -29,10 +29,13 @@ public class TrackCheckpoints : MonoBehaviour
             checkpointSingleList.Add(checkpointSingle);
         }
 
+        foreach(GameObject i in GameObject.FindGameObjectsWithTag("Car"))
+        {
+            carTransformList.Add(i.transform);
+        }
         nextCheckpointSingleIndexList = new List<int>();
         foreach (Transform carTransform in carTransformList)
         {
-            Debug.Log("for2");
             nextCheckpointSingleIndexList.Add(0);
         }
     }
@@ -43,7 +46,7 @@ public class TrackCheckpoints : MonoBehaviour
         if (checkpointSingleList.IndexOf(checkpointSingle) == nextCheckpointSingleIndex)
         {
             // Correct checkpoint
-            Debug.Log("Correct");
+            //Debug.Log("Correct");
             CheckpointSingle correctCheckpointSingle = checkpointSingleList[nextCheckpointSingleIndex];
 
             nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)]
@@ -62,11 +65,7 @@ public class TrackCheckpoints : MonoBehaviour
 
     public CheckpointSingle GetNextCheckpoint(Transform carTransform)
     {
-        Debug.Log("GetNextCheck");
-        Debug.Log(nextCheckpointSingleIndexList.Count);
-        Debug.Log(checkpointSingleList.Count);
         int nextCheckpointSingleIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)];
-        Debug.Log(nextCheckpointSingleIndex);
 
         return checkpointSingleList[nextCheckpointSingleIndex];
     }

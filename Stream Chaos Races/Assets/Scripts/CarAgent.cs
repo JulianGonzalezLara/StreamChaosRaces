@@ -9,7 +9,7 @@ public class CarAgent : Agent
 {
     [SerializeField]
     private TrackCheckpoints trackCheckpoints;
-    //[SerializeField] private Transform spawnPosition;
+    [SerializeField] private Transform spawnPosition;
 
     private PrometeoCarController carController;
 
@@ -20,37 +20,27 @@ public class CarAgent : Agent
 
     private void Start()
     {
-        /*trackCheckpoints.OnCarCorrectCheckpoint += TrackCheckpoints_OnCarCorrectCheckpoint;
-        trackCheckpoints.OnCarWrongCheckpoint += TrackCheckpoints_OnCarWrongCheckpoint;*/
     }
-
-    /*private void TrackCheckpoints_OnCarWrongCheckpoint(object sender, TrackCheckpoints.CarCheckpointEventArgs e)
-    {
-        if(e.carTransform == transform)
-        {
-            AddReward(-1f);
-        }
-    }
-
-    private void TrackCheckpoints_OnCarCorrectCheckpoint(object sender, TrackCheckpoints.CarCheckpointEventArgs e)
-    {
-        if (e.carTransform == transform)
-        {
-            AddReward(1f);
-        }
-    }*/
 
     public override void OnEpisodeBegin()
     {
-        /*transform.position = spawnPosition.position + new Vector3(Random.Range(-5f, +5f), 0, Random.Range(-5f, +5f));
-        transform.forward = spawnPosition.forward;*/
+        transform.position = spawnPosition.position + new Vector3(Random.Range(-5f, +5f), 0, Random.Range(-5f, +5f));
+        transform.forward = spawnPosition.forward;
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
+        sensor.AddObservation(carController.carSpeed);
+
+        //Primera observacion direccion checkpoint
         /*Vector3 checkpointForward = trackCheckpoints.GetNextCheckpoint(transform).transform.forward;
         float directionDot = Vector3.Dot(transform.forward, checkpointForward);
+        //Debug.Log(directionDot);
         sensor.AddObservation(directionDot);*/
+
+        //Segunda observacion direccion checkpoint
+        var direction = (trackCheckpoints.GetNextCheckpoint(transform).transform.position - carController.transform.position).normalized;
+        sensor.AddObservation(Vector3.Dot(carController.GetComponent<Rigidbody>().velocity.normalized, direction));
     }
 
     public override void OnActionReceived(ActionBuffers actions)
@@ -127,5 +117,11 @@ public class CarAgent : Agent
         {
             AddReward(-0.1f);
         }
+    }
+
+    public void RewardCheckpoint()
+    {
+        Debug.Log("reward checkpoint");
+        AddReward(1f);
     }
 }

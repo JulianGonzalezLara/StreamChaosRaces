@@ -23,7 +23,8 @@ public class CheckpointSingle : MonoBehaviour
         if (other.CompareTag("Car"))
         {
             trackCheckpoints.CarThroughCheckpoint(this, other.transform);
-            Debug.Log("CheckPoint");
+            //Debug.Log("CheckPoint");
+            other.GetComponent<CarAgent>().RewardCheckpoint();
         }
         else{
             Debug.Log("error trigger checkpoint");
