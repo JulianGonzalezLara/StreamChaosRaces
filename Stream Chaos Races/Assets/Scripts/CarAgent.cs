@@ -48,10 +48,9 @@ public class CarAgent : Agent
 
     public override void CollectObservations(VectorSensor sensor)
     {
-        Debug.Log("CollectObservations");
-        Vector3 checkpointForward = trackCheckpoints.GetNextCheckpoint(transform).transform.forward;
+        /*Vector3 checkpointForward = trackCheckpoints.GetNextCheckpoint(transform).transform.forward;
         float directionDot = Vector3.Dot(transform.forward, checkpointForward);
-        sensor.AddObservation(directionDot);
+        sensor.AddObservation(directionDot);*/
     }
 
     public override void OnActionReceived(ActionBuffers actions)
