@@ -2,22 +2,22 @@
     "raceCar": {
         "checkpoints": [
             {
-                "steps": 135341,
-                "file_path": "results\\RaceCar\\raceCar\\raceCar-135341.onnx",
+                "steps": 13264,
+                "file_path": "results\\RaceCar\\raceCar\\raceCar-13264.onnx",
                 "reward": null,
-                "creation_time": 1653337764.704474,
+                "creation_time": 1653399407.002872,
                 "auxillary_file_paths": [
-                    "results\\RaceCar\\raceCar\\raceCar-135341.pt"
+                    "results\\RaceCar\\raceCar\\raceCar-13264.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 135341,
+            "steps": 13264,
             "file_path": "results\\RaceCar\\raceCar.onnx",
             "reward": null,
-            "creation_time": 1653337764.704474,
+            "creation_time": 1653399407.002872,
             "auxillary_file_paths": [
-                "results\\RaceCar\\raceCar\\raceCar-135341.pt"
+                "results\\RaceCar\\raceCar\\raceCar-13264.pt"
             ]
         }
     },
