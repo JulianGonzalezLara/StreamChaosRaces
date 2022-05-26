@@ -24,7 +24,8 @@ public class CarAgent : Agent
 
     public override void OnEpisodeBegin()
     {
-        transform.position = spawnPosition.position + new Vector3(Random.Range(-5f, +5f), 0, Random.Range(-5f, +5f));
+        trackCheckpoints.ResetCheckpoints(carController.transform);
+        transform.position = spawnPosition.position + new Vector3(Random.Range(-2f, +2f), 0, Random.Range(-2f, +2f));
         transform.forward = spawnPosition.forward;
     }
 
@@ -33,14 +34,14 @@ public class CarAgent : Agent
         sensor.AddObservation(carController.carSpeed);
 
         //Primera observacion direccion checkpoint
-        /*Vector3 checkpointForward = trackCheckpoints.GetNextCheckpoint(transform).transform.forward;
+        Vector3 checkpointForward = trackCheckpoints.GetNextCheckpoint(transform).transform.forward;
         float directionDot = Vector3.Dot(transform.forward, checkpointForward);
         //Debug.Log(directionDot);
-        sensor.AddObservation(directionDot);*/
+        sensor.AddObservation(directionDot);
 
         //Segunda observacion direccion checkpoint
-        var direction = (trackCheckpoints.GetNextCheckpoint(transform).transform.position - carController.transform.position).normalized;
-        sensor.AddObservation(Vector3.Dot(carController.GetComponent<Rigidbody>().velocity.normalized, direction));
+        /*var direction = (trackCheckpoints.GetNextCheckpoint(transform).transform.position - carController.transform.position).normalized;
+        sensor.AddObservation(Vector3.Dot(carController.GetComponent<Rigidbody>().velocity.normalized, direction));*/
     }
 
     public override void OnActionReceived(ActionBuffers actions)
@@ -123,5 +124,11 @@ public class CarAgent : Agent
     {
         Debug.Log("reward checkpoint");
         AddReward(1f);
+    }
+
+    public void NegativeRewardCheckpoint()
+    {
+        Debug.Log("negative reward checkpoint");
+        AddReward(-1f);
     }
 }

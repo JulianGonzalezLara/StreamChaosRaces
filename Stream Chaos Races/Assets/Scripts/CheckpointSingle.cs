@@ -24,7 +24,7 @@ public class CheckpointSingle : MonoBehaviour
         {
             trackCheckpoints.CarThroughCheckpoint(this, other.transform);
             //Debug.Log("CheckPoint");
-            other.GetComponent<CarAgent>().RewardCheckpoint();
+            //other.GetComponent<CarAgent>().RewardCheckpoint();
         }
         else{
             Debug.Log("error trigger checkpoint");

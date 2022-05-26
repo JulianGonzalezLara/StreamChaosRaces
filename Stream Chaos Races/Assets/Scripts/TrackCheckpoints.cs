@@ -14,6 +14,8 @@ public class TrackCheckpoints : MonoBehaviour
     private List<CheckpointSingle> checkpointSingleList;
     private List<int> nextCheckpointSingleIndexList;
 
+    public int nextCheckpointSingleIndex;
+
     private void Awake()
     {
         //Debug.Log("Awake");
@@ -42,7 +44,7 @@ public class TrackCheckpoints : MonoBehaviour
 
     public void CarThroughCheckpoint(CheckpointSingle checkpointSingle, Transform carTransform)
     {
-        int nextCheckpointSingleIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)];
+        nextCheckpointSingleIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)];
         if (checkpointSingleList.IndexOf(checkpointSingle) == nextCheckpointSingleIndex)
         {
             // Correct checkpoint
@@ -52,6 +54,7 @@ public class TrackCheckpoints : MonoBehaviour
             nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)]
                 = (nextCheckpointSingleIndex + 1) % checkpointSingleList.Count;
             OnCarCorrectCheckpoint?.Invoke(this, EventArgs.Empty);
+            carTransform.GetComponent<CarAgent>().RewardCheckpoint();
         }
         else
         {
@@ -60,13 +63,20 @@ public class TrackCheckpoints : MonoBehaviour
             OnCarWrongCheckpoint?.Invoke(this, EventArgs.Empty);
 
             CheckpointSingle correctCheckpointSingle = checkpointSingleList[nextCheckpointSingleIndex];
+            carTransform.GetComponent<CarAgent>().NegativeRewardCheckpoint();
         }
     }
 
     public CheckpointSingle GetNextCheckpoint(Transform carTransform)
     {
-        int nextCheckpointSingleIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)];
+        nextCheckpointSingleIndex = nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)];
 
         return checkpointSingleList[nextCheckpointSingleIndex];
+    }
+
+    public void ResetCheckpoints(Transform carTransform)
+    {
+        nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform)]
+                = (nextCheckpointSingleIndex = 0) % checkpointSingleList.Count;
     }
 }
