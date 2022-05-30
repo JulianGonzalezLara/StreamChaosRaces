@@ -445,6 +445,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ML-Agents.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProBuilder.AddOns.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProBuilder.AssetIdRemapUtility.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProBuilder.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.ProBuilder.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
@@ -467,6 +471,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Karting/Scripts/AI/Editor/DebugCheckpointRayEditor.cs"
+"Assets/Karting/Scripts/Editor/AutoLockUILayer.cs"
+"Assets/Karting/Scripts/Editor/MiniProfiler.cs"
+"Assets/Karting/Scripts/Editor/RequireInterfaceAttributeDrawer.cs"
+"Assets/Karting/Scripts/Editor/ShaderBuildStripping.cs"
 "Assets/PROMETEO - Car Controller/Editor/PrometeoEditor.cs"
 -langversion:9.0
 
