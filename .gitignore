@@ -72,3 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 Stream Chaos Races/Library/PackageCache/
+StreamChaosRaces/Library/PackageCache/
+StreamChaosRaces/Library/ArtifactDB
