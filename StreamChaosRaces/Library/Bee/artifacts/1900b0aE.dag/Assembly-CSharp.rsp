@@ -421,6 +421,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/KartGame.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/KartGame.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PPv2URPConverters.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/TwitchChatConnect.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/TwitchChatConnect.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/TwitchChatConnect.Tests.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Barracuda.BurstBLAS.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Barracuda.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Barracuda.iOSBLAS.ref.dll"
@@ -486,7 +489,13 @@
 "Assets/Scripts/CarAgent.cs"
 "Assets/Scripts/CheckpointSingle.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/RaceManager.cs"
 "Assets/Scripts/TrackCheckpoints.cs"
+"Assets/TwitchChatConnect/Example/MiniGame/Scripts/Game.cs"
+"Assets/TwitchChatConnect/Example/MiniGame/Scripts/GameExpert.cs"
+"Assets/TwitchChatConnect/Example/MiniGame/Scripts/GameUI.cs"
+"Assets/TwitchChatConnect/Example/MiniGame/Scripts/MatchManager.cs"
+"Assets/TwitchChatConnect/Example/ShowChatMessages/Example.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
