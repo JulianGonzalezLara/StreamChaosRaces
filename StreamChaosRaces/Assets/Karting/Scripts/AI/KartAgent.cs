@@ -4,6 +4,7 @@ using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Actuators;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using System.Collections.Generic;
 
 namespace KartGame.AI
 {
@@ -50,7 +51,7 @@ namespace KartGame.AI
         [Tooltip("Sensors contain ray information to sense out the world, you can have as many sensors as you need.")]
         public Sensor[] Sensors;
         [Header("Checkpoints"), Tooltip("What are the series of checkpoints for the agent to seek and pass through?")]
-        public Collider[] Colliders;
+        public List<Collider> Colliders;
         [Tooltip("What layer are the checkpoints on? This should be an exclusive layer for the agent to use.")]
         public LayerMask CheckpointMask;
 
@@ -100,6 +101,10 @@ namespace KartGame.AI
         void Awake()
         {
             m_Kart = GetComponent<ArcadeKart>();
+            foreach (GameObject i in GameObject.FindGameObjectsWithTag("CheckPoint"))
+            {
+                Colliders.Add(i.GetComponent<BoxCollider>());
+            }
             if (AgentSensorTransform == null) AgentSensorTransform = transform;
         }
 
@@ -155,7 +160,7 @@ namespace KartGame.AI
             FindCheckpointIndex(other, out var index);
 
             // Ensure that the agent touched the checkpoint and the new index is greater than the m_CheckpointIndex.
-            if (triggered > 0 && index > m_CheckpointIndex || index == 0 && m_CheckpointIndex == Colliders.Length - 1)
+            if (triggered > 0 && index > m_CheckpointIndex || index == 0 && m_CheckpointIndex == Colliders.Count - 1)
             {
                 AddReward(PassCheckpointReward);
                 m_CheckpointIndex = index;
@@ -164,7 +169,7 @@ namespace KartGame.AI
 
         void FindCheckpointIndex(Collider checkPoint, out int index)
         {
-            for (int i = 0; i < Colliders.Length; i++)
+            for (int i = 0; i < Colliders.Count; i++)
             {
                 if (Colliders[i].GetInstanceID() == checkPoint.GetInstanceID())
                 {
@@ -193,7 +198,7 @@ namespace KartGame.AI
             sensor.AddObservation(m_Kart.LocalSpeed());
 
             // Add an observation for direction of the agent to the next checkpoint.
-            var next = (m_CheckpointIndex + 1) % Colliders.Length;
+            var next = (m_CheckpointIndex + 1) % Colliders.Count;
             var nextCollider = Colliders[next];
             if (nextCollider == null)
                 return;
@@ -246,7 +251,7 @@ namespace KartGame.AI
             InterpretDiscreteActions(actions);
 
             // Find the next checkpoint when registering the current checkpoint that the agent has passed.
-            var next = (m_CheckpointIndex + 1) % Colliders.Length;
+            var next = (m_CheckpointIndex + 1) % Colliders.Count;
             var nextCollider = Colliders[next];
             var direction = (nextCollider.transform.position - m_Kart.transform.position).normalized;
             var reward = Vector3.Dot(m_Kart.Rigidbody.velocity.normalized, direction);
@@ -264,7 +269,7 @@ namespace KartGame.AI
             switch (Mode)
             {
                 case AgentMode.Training:
-                    m_CheckpointIndex = Random.Range(0, Colliders.Length - 1);
+                    m_CheckpointIndex = Random.Range(0, Colliders.Count - 1);
                     var collider = Colliders[m_CheckpointIndex];
                     transform.localRotation = collider.transform.rotation;
                     transform.position = collider.transform.position;
