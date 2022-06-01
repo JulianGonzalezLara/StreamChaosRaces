@@ -1698,9 +1698,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dbcb2cb0ee7d4d44b9c2cbf5cd5fc4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  username: julipruebas
-  userToken: oauth:1pgo9oxe2qabmcsvl60pm4vqwl8hox
-  channelName: julipruebas
+  username: 
+  userToken: 
+  channelName: 
   Spawns: []
   playerPrefab: {fileID: 5209091469959198663, guid: 5f7c5784d4776074089b56351be94b74,
     type: 3}

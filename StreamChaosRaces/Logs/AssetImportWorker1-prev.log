@@ -15,7 +15,7 @@ E:/StreamChaosRaces/StreamChaosRaces
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55162
+64407
 Successfully changed project path to: E:/StreamChaosRaces/StreamChaosRaces
 E:/StreamChaosRaces/StreamChaosRaces
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ E:/StreamChaosRaces/StreamChaosRaces
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 137.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 136.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.1f1 (3b70a0754835)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -63,643 +63,119 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008457 seconds.
+Registered in 0.011086 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 138.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 139.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.656 seconds
+- Completed reload, in  0.686 seconds
 Domain Reload Profiling:
-	ReloadAssembly (657ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (686ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (479ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
+			SetupTypeCache (100ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (309ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (318ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
+				RefreshPlugins (140ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008899 seconds.
+Registered in 0.008916 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 138.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 140.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path E:\StreamChaosRaces\StreamChaosRaces\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1135c66e5f4c41a7831fa5798849d8b6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_lockedLayers ()
+AutoLockUILayer:SetUILayerIsLocked (bool) (at Assets/Karting/Scripts/Editor/AutoLockUILayer.cs:36)
+AutoLockUILayer:.cctor () (at Assets/Karting/Scripts/Editor/AutoLockUILayer.cs:16)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Karting/Scripts/Editor/AutoLockUILayer.cs Line: 36)
+
 Mono: successfully reloaded assembly
-- Completed reload, in  1.369 seconds
+- Completed reload, in  1.450 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1370ms)
-		BeginReloadAssembly (100ms)
+	ReloadAssembly (1451ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1171ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1235ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (321ms)
+			SetupTypeCache (331ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (652ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (681ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (138ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (293ms)
+				RefreshPlugins (141ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (300ms)
 				ProcessInitializeOnLoadMethodAttributes (73ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6070 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (21.8 MB). Loaded Objects now: 6490.
-Memory consumption went from 269.3 MB to 247.4 MB.
-Total: 7.611500 ms (FindLiveObjects: 0.583800 ms CreateObjectMapping: 0.179300 ms MarkObjects: 3.009000 ms  DeleteObjects: 3.837600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008368 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.187 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1188ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (946ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (460ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5992 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (21.8 MB). Loaded Objects now: 6536.
-Memory consumption went from 261.5 MB to 239.7 MB.
-Total: 6.898800 ms (FindLiveObjects: 0.466200 ms CreateObjectMapping: 0.152400 ms MarkObjects: 2.607200 ms  DeleteObjects: 3.671800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 19207.857478 seconds.
-  path: Assets/TwitchChatConnect/Example/MiniGame/Prefabs/Goal.prefab
-  artifactKey: Guid(289751bddfdb45e418d2cdca44238743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchChatConnect/Example/MiniGame/Prefabs/Goal.prefab using Guid(289751bddfdb45e418d2cdca44238743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739c78cbdd306f4eb7656bf54458c26f') in 0.281029 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009296 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.243 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1244ms)
-		BeginReloadAssembly (134ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1014ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (477ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5999 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (21.8 MB). Loaded Objects now: 6603.
-Memory consumption went from 267.6 MB to 245.8 MB.
-Total: 7.071000 ms (FindLiveObjects: 0.464700 ms CreateObjectMapping: 0.148000 ms MarkObjects: 2.609500 ms  DeleteObjects: 3.847500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009875 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.62 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path E:\StreamChaosRaces\StreamChaosRaces\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1135c66e5f4c41a7831fa5798849d8b6>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_lockedLayers ()
-AutoLockUILayer:SetUILayerIsLocked (bool) (at Assets/Karting/Scripts/Editor/AutoLockUILayer.cs:36)
-AutoLockUILayer:.cctor () (at Assets/Karting/Scripts/Editor/AutoLockUILayer.cs:16)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Karting/Scripts/Editor/AutoLockUILayer.cs Line: 36)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.351 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1351ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1106ms)
-			LoadAssemblies (110ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (516ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (301ms)
-				ProcessInitializeOnLoadMethodAttributes (76ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.44 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6000 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (21.8 MB). Loaded Objects now: 6620.
-Memory consumption went from 267.8 MB to 246.0 MB.
-Total: 11.462800 ms (FindLiveObjects: 0.721200 ms CreateObjectMapping: 0.296700 ms MarkObjects: 4.231800 ms  DeleteObjects: 6.211800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 452.457795 seconds.
-  path: Assets/TwitchChatConnect/Example/MiniGame/Materials/Goal.mat
-  artifactKey: Guid(da576d4a4c3397c45b77c2e805a92674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchChatConnect/Example/MiniGame/Materials/Goal.mat using Guid(da576d4a4c3397c45b77c2e805a92674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cf9b20a6578bda456da7f34d995ee1') in 0.220187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 60.074736 seconds.
-  path: Assets/TwitchChatConnect/Example/MiniGame/Materials/Goal 1.mat
-  artifactKey: Guid(40601da92fcbb844db645ea1f2d9633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchChatConnect/Example/MiniGame/Materials/Goal 1.mat using Guid(40601da92fcbb844db645ea1f2d9633d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec65d6d7a5f3714d9ba9b99023dca82') in 0.035822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.528604 seconds.
-  path: Assets/TwitchChatConnect/Example/MiniGame/Materials/Player 1.mat
-  artifactKey: Guid(b2339d5244bbac549b8daa7dbda38979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TwitchChatConnect/Example/MiniGame/Materials/Player 1.mat using Guid(b2339d5244bbac549b8daa7dbda38979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270f9bace32178a6c1e732565bb6acc3') in 0.035507 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009349 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.366 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1366ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1113ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (522ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (299ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.77 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5999 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (21.8 MB). Loaded Objects now: 6708.
-Memory consumption went from 269.1 MB to 247.3 MB.
-Total: 8.561800 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.136000 ms MarkObjects: 3.599000 ms  DeleteObjects: 4.362500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008816 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.304 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1304ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1068ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (500ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6000 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (21.8 MB). Loaded Objects now: 6725.
-Memory consumption went from 269.1 MB to 247.3 MB.
-Total: 8.616100 ms (FindLiveObjects: 0.760300 ms CreateObjectMapping: 0.235700 ms MarkObjects: 2.980800 ms  DeleteObjects: 4.637700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008509 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path E:\StreamChaosRaces\StreamChaosRaces\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1135c66e5f4c41a7831fa5798849d8b6>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_lockedLayers ()
-AutoLockUILayer:SetUILayerIsLocked (bool) (at Assets/Karting/Scripts/Editor/AutoLockUILayer.cs:36)
-AutoLockUILayer:.cctor () (at Assets/Karting/Scripts/Editor/AutoLockUILayer.cs:16)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: Assets/Karting/Scripts/Editor/AutoLockUILayer.cs Line: 36)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1340ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1101ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (504ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6000 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (21.8 MB). Loaded Objects now: 6742.
-Memory consumption went from 269.2 MB to 247.4 MB.
-Total: 10.178400 ms (FindLiveObjects: 0.723700 ms CreateObjectMapping: 0.173100 ms MarkObjects: 4.053800 ms  DeleteObjects: 5.226300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010973 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path E:\StreamChaosRaces\StreamChaosRaces\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <6073cf49ed704e958b8a66d540dea948>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <1135c66e5f4c41a7831fa5798849d8b6>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.178 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1178ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (948ms)
-			LoadAssemblies (109ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (421ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (235ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (21.8 MB). Loaded Objects now: 6760.
-Memory consumption went from 269.2 MB to 247.4 MB.
-Total: 6.631000 ms (FindLiveObjects: 0.444400 ms CreateObjectMapping: 0.147800 ms MarkObjects: 2.583300 ms  DeleteObjects: 3.454600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008164 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\StreamChaosRaces\StreamChaosRaces\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.253 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1254ms)
-		BeginReloadAssembly (161ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (989ms)
-			LoadAssemblies (111ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (435ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (21.8 MB). Loaded Objects now: 6777.
-Memory consumption went from 269.4 MB to 247.6 MB.
-Total: 7.469900 ms (FindLiveObjects: 0.480400 ms CreateObjectMapping: 0.140500 ms MarkObjects: 2.972400 ms  DeleteObjects: 3.875300 ms)
+Unloading 6100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (21.8 MB). Loaded Objects now: 6520.
+Memory consumption went from 270.1 MB to 248.3 MB.
+Total: 8.152500 ms (FindLiveObjects: 0.633400 ms CreateObjectMapping: 0.190700 ms MarkObjects: 3.265100 ms  DeleteObjects: 4.061600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -713,136 +189,130 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2266.675094 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Prefabs/Roadster_Kraken_Player.prefab
-  artifactKey: Guid(d41d1c668e37ce94692769ce6d3a66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Prefabs/Roadster_Kraken_Player.prefab using Guid(d41d1c668e37ce94692769ce6d3a66d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcabf8fb5295fd06497ec51c5ef95db2') in 0.036251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Prefabs/Roadster_Tiger_Player.prefab
-  artifactKey: Guid(b2e75715f66c9084594b2cef84705e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Prefabs/Roadster_Tiger_Player.prefab using Guid(b2e75715f66c9084594b2cef84705e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4dea0312c0eca23494cb0fa5df2236') in 0.010743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 223.684689 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Bullet_Exhaust.mat
-  artifactKey: Guid(3629030cd67087546870066b74ef54f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Bullet_Exhaust.mat using Guid(3629030cd67087546870066b74ef54f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003497f9dcdc1cd8ac2a6d5b16bb88a3') in 0.186741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Pouncer_Mags.mat
-  artifactKey: Guid(db2858dbfd3e88c4aa77221e495944ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Pouncer_Mags.mat using Guid(db2858dbfd3e88c4aa77221e495944ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01463cddcef0c1e897529062ec90313') in 0.013896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Pouncer_Exhaust.mat
-  artifactKey: Guid(387d9d0bb1e148444b9eff0201e2aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Pouncer_Exhaust.mat using Guid(387d9d0bb1e148444b9eff0201e2aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fdccde0669338350a473ce2abf0894') in 0.015059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Tiger_Body.mat
-  artifactKey: Guid(6a92826675e0ea64a8b96939e8492a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Tiger_Body.mat using Guid(6a92826675e0ea64a8b96939e8492a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa4aa538d3a14d2d47eb4cbf6861d36') in 1.711328 seconds 
+  Time since last request: 25160.645404 seconds.
+  path: Assets/Racing Kit/roadCornerSmallWall.fbx
+  artifactKey: Guid(47321959fac51c54b8353682d93d3aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadCornerSmallWall.fbx using Guid(47321959fac51c54b8353682d93d3aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce54ffc720727a79841abfbba440e101') in 0.500417 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Tiger_Tires.mat
-  artifactKey: Guid(8cd9a42dd5e76244ca459c8d3ccb06a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Tiger_Tires.mat using Guid(8cd9a42dd5e76244ca459c8d3ccb06a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78d87d19aed4d5adebe08cca3428209') in 0.024199 seconds 
+  path: Assets/Racing Kit/roadCornerLarge.fbx
+  artifactKey: Guid(bc838b6c0ee8ebf4687591f681a64603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadCornerLarge.fbx using Guid(bc838b6c0ee8ebf4687591f681a64603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbf8baa49b479feca9a7f79ddcf1987') in 0.144474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Kraken_Exhaust.mat
-  artifactKey: Guid(0a66bc41c1afd694da342a85626d5c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Kraken_Exhaust.mat using Guid(0a66bc41c1afd694da342a85626d5c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37f01f089583e6751659f37a1c2b04e') in 0.017292 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Racing Kit/roadCornerLargerSandInner.fbx
+  artifactKey: Guid(e53bb3b3b74d3ac4fba175d675ad1868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadCornerLargerSandInner.fbx using Guid(e53bb3b3b74d3ac4fba175d675ad1868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0ef1cbd377eb910ba1828f6c6edb30') in 0.064058 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Bullet_Tires.mat
-  artifactKey: Guid(9f5e610ccf83ab6488f9ecf8e652daaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Bullet_Tires.mat using Guid(9f5e610ccf83ab6488f9ecf8e652daaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86584cbda8be0acb8aaf3a1b4a9086a') in 0.022781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Kraken_Body.mat
-  artifactKey: Guid(4799d3576e843ed46be470e2c2a51458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Kraken_Body.mat using Guid(4799d3576e843ed46be470e2c2a51458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436936e4a0f87146b67b9c225e5a670e') in 0.038428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Kraken_Tires.mat
-  artifactKey: Guid(8a0d12beb8e0e364d97181b92366d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Kraken_Tires.mat using Guid(8a0d12beb8e0e364d97181b92366d5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09af0ef37e7381cf4afe448fa1f5be52') in 0.026880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Bullet_LicensePlate.mat
-  artifactKey: Guid(869156afd0d254e45bdf721d008e0362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Bullet_LicensePlate.mat using Guid(869156afd0d254e45bdf721d008e0362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31e278f607255be419a7523223628dd') in 0.016242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Tiger_Mags.mat
-  artifactKey: Guid(a1f3322249ba46d49b2b3c768b2a3e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Materials/Roadster_Tiger_Mags.mat using Guid(a1f3322249ba46d49b2b3c768b2a3e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b345970f516b577b104e8738baa88aa6') in 0.013278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.148342 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Bullet_Body_Normal.png
-  artifactKey: Guid(abc5993f37d912740b4021e81ca7a2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Bullet_Body_Normal.png using Guid(abc5993f37d912740b4021e81ca7a2b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b60254e408a19c1ac7abe8dd0c1aa9') in 0.063016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Kraken_Body_MetallicSmoothness.png
-  artifactKey: Guid(8ed5f3467414f8f4286369168abc112c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Kraken_Body_MetallicSmoothness.png using Guid(8ed5f3467414f8f4286369168abc112c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f66756bb6a8d56d58468f5333a0e9c') in 0.020563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Pouncer_Tires_MetallicSmoothness.png
-  artifactKey: Guid(5e049e103cf459740b0d788db03bc9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Pouncer_Tires_MetallicSmoothness.png using Guid(5e049e103cf459740b0d788db03bc9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f16486d2084a1f246a7a91dab035f4c') in 0.016734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Pouncer_Body_MetallicSmoothness.png
-  artifactKey: Guid(2ce9bf69133b0cb438f69589b45f2739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Pouncer_Body_MetallicSmoothness.png using Guid(2ce9bf69133b0cb438f69589b45f2739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1e002571cb33633b91e778d9044eb1') in 0.015765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Kraken_Body_AlbedoTransparency.png
-  artifactKey: Guid(8dfec28b927202045a011c453de92d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Kraken_Body_AlbedoTransparency.png using Guid(8dfec28b927202045a011c453de92d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ffad32b83e0b31b0bbf000ade23343') in 0.041204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Pouncer_Body_AlbedoTransparency.png
-  artifactKey: Guid(f7d20574033f6684c8a19e015f2fa05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Pouncer_Body_AlbedoTransparency.png using Guid(f7d20574033f6684c8a19e015f2fa05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67b77ce3af8d89592568735f5b139f3') in 0.017936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Tiger_Tires_AlbedoTransparency.png
-  artifactKey: Guid(a7f3bdfd6dc86c94b809d047acc7ab6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Tiger_Tires_AlbedoTransparency.png using Guid(a7f3bdfd6dc86c94b809d047acc7ab6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbb473654672aa990c02adff0a685fb') in 0.017470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Pouncer_Tires_AlbedoTransparency.png
-  artifactKey: Guid(3f9a128256b20ab43ad53922d7cae3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Pouncer_Tires_AlbedoTransparency.png using Guid(3f9a128256b20ab43ad53922d7cae3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a5ff339282f600c1c8658a251ddac2') in 0.013822 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Racing Kit/rail.fbx
+  artifactKey: Guid(2843aa5c8fbb5c84da18972bdb283d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/rail.fbx using Guid(2843aa5c8fbb5c84da18972bdb283d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce537be6d73490b916ddc831d059dbde') in 0.046367 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Kraken_Body_Normal.png
-  artifactKey: Guid(9db35ce7609d2614cbfc6760964b5abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgKarting_KartSkins/Roadster_Skins/Textures/Roadster_Kraken_Body_Normal.png using Guid(9db35ce7609d2614cbfc6760964b5abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98451516c4edb611e0958e135e80f633') in 0.017414 seconds 
+  path: Assets/Racing Kit/roadCornerLargerWallInner.fbx
+  artifactKey: Guid(e4786ea831139e740ad87a04ef933f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadCornerLargerWallInner.fbx using Guid(e4786ea831139e740ad87a04ef933f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd03a3afeaca6929b9bbf1a9faab9b7') in 0.054294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Racing Kit/railDouble.fbx
+  artifactKey: Guid(3618cdabeebf17a45809018f66b40cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/railDouble.fbx using Guid(3618cdabeebf17a45809018f66b40cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e57bed32ff7f9c4d768a24559bab57') in 0.073903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Racing Kit/roadCornerBridgeSmall.fbx
+  artifactKey: Guid(6892f312aa7bd31449d8201df34cd77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadCornerBridgeSmall.fbx using Guid(6892f312aa7bd31449d8201df34cd77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127f896a2a0fa06d7b82f64bce1d38bf') in 0.056544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Racing Kit/roadCornerLargeWallInner.fbx
+  artifactKey: Guid(4c59b8fed5a2b924db2723e045c8cc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadCornerLargeWallInner.fbx using Guid(4c59b8fed5a2b924db2723e045c8cc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20401f8eb2cd8db557149597ee959990') in 0.054943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Racing Kit/roadCornerBridgeLarger.fbx
+  artifactKey: Guid(40938986977f46d428a26d0a223709f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadCornerBridgeLarger.fbx using Guid(40938986977f46d428a26d0a223709f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2798d6e6b23c2d7d72a78f5e3727ae27') in 0.076620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.242215 seconds.
+  path: Assets/Racing Kit/roadEnd.fbx
+  artifactKey: Guid(0c144108571b60745ae8c4256faf2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadEnd.fbx using Guid(0c144108571b60745ae8c4256faf2fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fc5bfab3f113096182359b35bf4c95') in 0.063652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Racing Kit/roadPitStraight.fbx
+  artifactKey: Guid(1be8821c140d8b647b850dba88d4a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadPitStraight.fbx using Guid(1be8821c140d8b647b850dba88d4a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4df870f68a39d2fbc57ad3c6c24de1f') in 0.099393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Racing Kit/roadSplit.fbx
+  artifactKey: Guid(1e75991b6e0362f45a1910c2c2d38ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadSplit.fbx using Guid(1e75991b6e0362f45a1910c2c2d38ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65109fd10e2fe54e11d6f923e1952f7') in 0.054247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Racing Kit/roadSide.fbx
+  artifactKey: Guid(4de20332c4130d845810dca441ecf917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadSide.fbx using Guid(4de20332c4130d845810dca441ecf917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075f5fba96420e460aca1fcda8688af2') in 0.077153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Racing Kit/roadRampLongCurved.fbx
+  artifactKey: Guid(e04780c174b1d93478db1c51ae321e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadRampLongCurved.fbx using Guid(e04780c174b1d93478db1c51ae321e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5991391b64a01aa39287c7086a43a6c') in 0.102318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.788066 seconds.
+  path: Assets/Racing Kit/roadStart.fbx
+  artifactKey: Guid(47c1e073588299b4a90916c8bca7c22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadStart.fbx using Guid(47c1e073588299b4a90916c8bca7c22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56f6908a6d2ef60234c2e9b4ffcc6be') in 0.115856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Racing Kit/roadStraightBridge.fbx
+  artifactKey: Guid(a05fed07b5c83e744ad5378837113233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadStraightBridge.fbx using Guid(a05fed07b5c83e744ad5378837113233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3492f70caa03d92abab2b49f4f82ac13') in 0.081873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Racing Kit/roadStraightBridgeMid.fbx
+  artifactKey: Guid(65409610c09b26749b7eca3f87145d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadStraightBridgeMid.fbx using Guid(65409610c09b26749b7eca3f87145d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8eb90b71be968cbb02299f58f66e3c') in 0.048661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.277969 seconds.
+  path: Assets/Racing Kit/roadStraightLongBumpRound.fbx
+  artifactKey: Guid(8804f6834f6e74f4aaedaaab9fabf4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/roadStraightLongBumpRound.fbx using Guid(8804f6834f6e74f4aaedaaab9fabf4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb7aada64330bccf37e7a38707fd592') in 0.063495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Racing Kit/tentClosedLong.fbx
+  artifactKey: Guid(ce6cac4b3e007a543a27411d9e1d5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/tentClosedLong.fbx using Guid(ce6cac4b3e007a543a27411d9e1d5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2db14e8eb2013efb0a833cc8489add') in 0.049127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Racing Kit/tentLong.fbx
+  artifactKey: Guid(3e5d653a5f9d19943bc8dd117d34510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/tentLong.fbx using Guid(3e5d653a5f9d19943bc8dd117d34510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78cfcacce2419e70606ebde60d0af91') in 0.065557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Racing Kit/tentRoof.fbx
+  artifactKey: Guid(509f1761568b63f4d8126fe465664296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Racing Kit/tentRoof.fbx using Guid(509f1761568b63f4d8126fe465664296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8631b1de66c6a2f313830b6b536980') in 0.059018 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

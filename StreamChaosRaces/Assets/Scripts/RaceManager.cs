@@ -23,7 +23,7 @@ public class RaceManager : MonoBehaviour
     void Start()
     {
 
-        TwitchChatClient.instance.Init(new TwitchConnectConfig(username, userToken, channelName),() =>
+        TwitchChatClient.instance.Init(new TwitchConnectConfig(GameManager.Instance.getUsername(), GameManager.Instance.getToken(), GameManager.Instance.getChannelName()),() =>
         {
             TwitchChatClient.instance.onChatMessageReceived += OnChatMessageReceived;
             TwitchChatClient.instance.onChatCommandReceived += OnChatCommandReceived;

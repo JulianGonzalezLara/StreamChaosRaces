@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public enum GameStates { MENU, CAMPOTIRO, LEVEL1, HELP, END };
+public enum GameStates { MENU, PLAY, HELP, END };
 
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
     public GameStates GameState { get; private set; }
+
+    private string _username;
+    private string _token;
+    private string _channelName;
 
     public static GameManager Instance
     {
@@ -51,11 +55,8 @@ public class GameManager : MonoBehaviour
             case GameStates.HELP:
                 SceneManager.LoadScene("Help");
                 break;
-            case GameStates.CAMPOTIRO:
-                SceneManager.LoadScene("CampoDeTiro");
-                break;
-            case GameStates.LEVEL1:
-                SceneManager.LoadScene("hangar");
+            case GameStates.PLAY:
+                SceneManager.LoadScene("Circuito2");
                 break;
             case GameStates.END:
                 Application.Quit();
@@ -63,5 +64,27 @@ public class GameManager : MonoBehaviour
         }
         this.GameState = gameState;
 
+    }
+
+    public void setConfigTwitch(string username, string token, string channelName)
+    {
+        _channelName = channelName;
+        _token = token;
+        _username = username;
+    }
+
+    public string getUsername()
+    {
+        return _username;
+    }
+
+    public string getToken()
+    {
+        return _token;
+    }
+
+    public string getChannelName()
+    {
+        return _channelName;
     }
 }
