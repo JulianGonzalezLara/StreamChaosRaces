@@ -46,6 +46,7 @@ public class RaceManager : MonoBehaviour
         if (chatCommand.Command == START_COMMAND)
         {
             player = Instantiate(playerPrefab, Spawns[contadorPlayers].transform.position, Spawns[contadorPlayers].transform.rotation);
+            player.name = chatCommand.User.Username;
             GameObject.FindGameObjectWithTag("CmCam").GetComponent<KartGame.Utilities.CineMachineTargeteer>().RefrescarCoches();
             contadorPlayers++;
         }
