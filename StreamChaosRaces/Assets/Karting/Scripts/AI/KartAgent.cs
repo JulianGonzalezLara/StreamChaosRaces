@@ -5,6 +5,7 @@ using Unity.MLAgents.Actuators;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using System.Collections.Generic;
+using TMPro;
 
 namespace KartGame.AI
 {
@@ -59,9 +60,9 @@ namespace KartGame.AI
         [Tooltip("Would the agent need a custom transform to be able to raycast and hit the track? " +
             "If not assigned, then the root transform will be used.")]
         public Transform AgentSensorTransform;
-#endregion
+        #endregion
 
-#region Rewards
+        #region Rewards
         [Header("Rewards"), Tooltip("What penatly is given when the agent crashes?")]
         public float HitPenalty = -1f;
         [Tooltip("How much reward is given when the agent successfully passes the checkpoints?")]
@@ -82,9 +83,9 @@ namespace KartGame.AI
         public LayerMask TrackMask;
         [Tooltip("How far should the ray be when casted? For larger karts - this value should be larger too.")]
         public float GroundCastDistance;
-#endregion
+        #endregion        
 
-#region Debugging
+        #region Debugging
         [Header("Debug Option")] [Tooltip("Should we visualize the rays that the agent draws?")]
         public bool ShowRaycasts;
 #endregion
@@ -98,6 +99,14 @@ namespace KartGame.AI
         bool m_EndEpisode;
         float m_LastAccumulatedReward;
 
+        [HideInInspector]
+        public int checkpoints_passed = 0;
+        public int finishLinePass = 0;
+        private string checkpoint_name = "";
+        private Checkpoints script_checkpoints = null;
+        private Leaderboard script_leaderboard = null;
+        private TextMeshPro tmpro = null;
+
         void Awake()
         {
             m_Kart = GetComponent<ArcadeKart>();
@@ -106,6 +115,17 @@ namespace KartGame.AI
                 Colliders.Add(i.GetComponent<BoxCollider>());
             }
             if (AgentSensorTransform == null) AgentSensorTransform = transform;
+
+            GameObject go = null;
+            go = GameObject.Find("CheckPoints");
+            if (go != null)
+                script_checkpoints = go.GetComponent<Checkpoints>();
+            go = GameObject.Find("Leaderboard");
+            if (go != null)
+            {
+                script_leaderboard = go.GetComponent<Leaderboard>();
+            }
+                
         }
 
         void Start()
@@ -164,6 +184,41 @@ namespace KartGame.AI
             {
                 AddReward(PassCheckpointReward);
                 m_CheckpointIndex = index;
+            }
+            //Debug.Log(other.name);
+            //Sistema vueltas y posicion
+            if (script_checkpoints != null)
+            {
+                
+                if (other.CompareTag("CheckPoint") == true)
+                {
+                    //have to first pass finish line to start racing
+                    if (other.name == "CheckPoint (0)")
+                    {
+                        finishLinePass += 1;
+                        checkpoint_name = other.name;
+                    }
+
+                    //didnt get to finish line yet no counting
+                    if (finishLinePass == 0)
+                        return;
+
+                    //count checkpoints passed
+                    checkpoint_name = script_checkpoints.GetNextCheckpointName(checkpoint_name);
+                    checkpoints_passed += 1;
+                    if (script_leaderboard != null)
+                    {
+                        int position = script_leaderboard.DoLeaderboard(gameObject.name);
+                        if (position > -1)
+                        {
+                            //tmpro.text = string.Format("{0} {1}", position, gameObject.name);
+                        }
+                        else
+                        {
+                            //tmpro.text = gameObject.name;
+                        }
+                    }
+                }
             }
         }
 

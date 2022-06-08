@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     public void LoadMenu()
     {
         setGameState(GameStates.MENU);
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MainMenu");
 
     }
 
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
         switch (gameState)
         {
             case GameStates.MENU:
-                SceneManager.LoadScene("Menu");
+                SceneManager.LoadScene("MainMenu");
                 break;
             case GameStates.HELP:
                 SceneManager.LoadScene("Help");
