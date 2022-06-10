@@ -17,7 +17,8 @@ public class RaceManager : MonoBehaviour
     public GameObject playerPrefab;
     private GameObject player;
 
-    private int contadorPlayers = 0;
+    public int contadorPlayers = 0;
+    public int maxJugadores = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,8 @@ public class RaceManager : MonoBehaviour
         {
             Spawns.Add(i.transform);
         }
+
+        maxJugadores = Spawns.Count;
     }
 
     private void OnChatCommandReceived(TwitchChatCommand chatCommand)
@@ -49,6 +52,7 @@ public class RaceManager : MonoBehaviour
             player.name = chatCommand.User.Username;
             GameObject.FindGameObjectWithTag("CmCam").GetComponent<KartGame.Utilities.CineMachineTargeteer>().RefrescarCoches();
             contadorPlayers++;
+            FindObjectOfType<HUD>().AddPlayerList(chatCommand.User);
         }
         else
         {

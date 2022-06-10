@@ -119,8 +119,10 @@ namespace KartGame.AI
             GameObject go = null;
             go = GameObject.Find("CheckPoints");
             if (go != null)
+            {
                 script_checkpoints = go.GetComponent<Checkpoints>();
-            go = GameObject.Find("Leaderboard");
+            }
+            go = GameObject.Find("txtLeaderboard");
             if (go != null)
             {
                 script_leaderboard = go.GetComponent<Leaderboard>();

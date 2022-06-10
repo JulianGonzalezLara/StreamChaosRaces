@@ -489,6 +489,7 @@
 "Assets/Scripts/CarAgent.cs"
 "Assets/Scripts/CheckpointSingle.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/HUD.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/RaceManager.cs"
 "Assets/Scripts/TrackCheckpoints.cs"

@@ -17,11 +17,14 @@ namespace KartGame.AI
         private void Start()
         {
             //get reference to the leaderboard text component
-            tmpro = GameObject.Find("Leaderboard").GetComponent<TextMeshProUGUI>();
+            tmpro = GameObject.Find("txtLeaderboard").GetComponent<TextMeshProUGUI>();
             tmpro.text = "Leaderboard";
 
-            Transform lookat = GameObject.FindGameObjectWithTag("CmCam").GetComponent<Cinemachine.CinemachineVirtualCamera>().Follow;
+        }
 
+        public void FillCarList()
+        {
+            Transform lookat = GameObject.FindGameObjectWithTag("CmCam").GetComponent<Cinemachine.CinemachineVirtualCamera>().Follow;
             //get reference to all the cars
             foreach (GameObject i in GameObject.FindGameObjectsWithTag("Player"))
             {
@@ -29,7 +32,6 @@ namespace KartGame.AI
                 if (lookat == i)
                     focuscar = car[car.Count - 1].gameObject.name;
             }
-
         }
         public int DoLeaderboard(string DriverName)
         {
