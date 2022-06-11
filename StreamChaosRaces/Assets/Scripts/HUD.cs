@@ -12,6 +12,7 @@ public class HUD : MonoBehaviour
     [Header("Menus")]
     public GameObject MenuEspera;
     public GameObject Leaderboard;
+    public TextMeshProUGUI txtVueltas;
 
     [Header("Elementos previos")]
     public TextMeshProUGUI txtListaJugadores;
@@ -35,6 +36,7 @@ public class HUD : MonoBehaviour
             }
 
             txtNumJugadores.text = string.Format("{0} / {1}", FindObjectOfType<RaceManager>().contadorPlayers, FindObjectOfType<RaceManager>().maxJugadores);
+            
         }
     }
 
@@ -46,8 +48,12 @@ public class HUD : MonoBehaviour
 
     public void PlayButton()
     {
+        FindObjectOfType<RaceManager>().partidaEmpezada = true;
         MenuEspera.SetActive(false);
         Leaderboard.SetActive(true);
+        txtVueltas.gameObject.SetActive(true);
         Leaderboard.GetComponentInChildren<Leaderboard>().FillCarList();
+        FindObjectOfType<RaceManager>().numVueltas = int.Parse(numVueltas.text);
+        FindObjectOfType<Leaderboard>().numVueltas = int.Parse(numVueltas.text);
     }
 }

@@ -106,6 +106,7 @@ namespace KartGame.AI
         private Checkpoints script_checkpoints = null;
         private Leaderboard script_leaderboard = null;
         private TextMeshPro tmpro = null;
+        private int pasoCheckpoint = 0;
 
         void Awake()
         {
@@ -195,10 +196,18 @@ namespace KartGame.AI
                 if (other.CompareTag("CheckPoint") == true)
                 {
                     //have to first pass finish line to start racing
-                    if (other.name == "CheckPoint (0)")
+                    if (other.name == "CheckPoint (0)" && pasoCheckpoint == 0)
                     {
+                        Debug.Log(other.name);
                         finishLinePass += 1;
                         checkpoint_name = other.name;
+                    }
+
+                    pasoCheckpoint++;
+
+                    if(pasoCheckpoint == 5)
+                    {
+                        pasoCheckpoint = 0;
                     }
 
                     //didnt get to finish line yet no counting

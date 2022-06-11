@@ -8,6 +8,7 @@ TagManager:
   - CheckPoint
   - Spawn
   - CmCam
+  - Manager
   layers:
   - Default
   - TransparentFX

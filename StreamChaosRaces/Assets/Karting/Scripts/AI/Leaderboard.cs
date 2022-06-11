@@ -7,12 +7,13 @@ using TMPro;
 namespace KartGame.AI
 {
     public class Leaderboard : MonoBehaviour
-    {
-        [SerializeField]
-        private List<KartAgent> car = new List<KartAgent>();
+    {        
+        public List<KartAgent> car = new List<KartAgent>();
         private TextMeshProUGUI tmpro = null;
         private StringBuilder sb = new StringBuilder();
         private string focuscar = "";
+
+        public int numVueltas = 0;
 
         private void Start()
         {
@@ -55,6 +56,13 @@ namespace KartGame.AI
             tmpro.text = sb.ToString();
 
             return ret;
+        }
+
+        public KartAgent getPrimero()
+        {
+            //sort the cars by number of checkpoints passed (descending=most to least)
+            car = car.OrderByDescending(x => x.checkpoints_passed).ToList();
+            return car[0];
         }
     }
 }

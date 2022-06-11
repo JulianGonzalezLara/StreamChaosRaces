@@ -1,5 +1,7 @@
+using KartGame.AI;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using TwitchChatConnect.Client;
 using TwitchChatConnect.Config;
 using TwitchChatConnect.Data;
@@ -19,6 +21,10 @@ public class RaceManager : MonoBehaviour
 
     public int contadorPlayers = 0;
     public int maxJugadores = 0;
+    public int numVueltas = 0;
+    public int vueltaActual = 0;
+    public bool partidaEmpezada = false;
+    private bool partidaFinalizada = false;
 
     // Start is called before the first frame update
     void Start()
@@ -44,9 +50,25 @@ public class RaceManager : MonoBehaviour
         maxJugadores = Spawns.Count;
     }
 
+    private void Update()
+    {
+        if (FindObjectOfType<Leaderboard>().car.Count > 0 && partidaFinalizada == false)
+        {
+            GameObject.Find("txtVueltas").GetComponent<TextMeshProUGUI>().text = string.Format("{0} / {1}", FindObjectOfType<Leaderboard>().getPrimero().gameObject.GetComponent<KartAgent>().finishLinePass, numVueltas);
+            
+            if(FindObjectOfType<Leaderboard>().getPrimero().gameObject.GetComponent<KartAgent>().finishLinePass == numVueltas + 1)
+            {
+                //final partida
+                partidaFinalizada = true;
+                Debug.Log("Partida finalizada");
+                Debug.Log("El ganador es: " + FindObjectOfType<Leaderboard>().getPrimero().gameObject.name);
+            }
+        }
+    }
+
     private void OnChatCommandReceived(TwitchChatCommand chatCommand)
     {
-        if (chatCommand.Command == START_COMMAND)
+        if (chatCommand.Command == START_COMMAND && partidaEmpezada == false)
         {
             player = Instantiate(playerPrefab, Spawns[contadorPlayers].transform.position, Spawns[contadorPlayers].transform.rotation);
             player.name = chatCommand.User.Username;
