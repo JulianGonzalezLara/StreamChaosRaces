@@ -1,4 +1,5 @@
 using KartGame.AI;
+using KartGame.KartSystems;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -72,6 +73,7 @@ public class RaceManager : MonoBehaviour
         {
             player = Instantiate(playerPrefab, Spawns[contadorPlayers].transform.position, Spawns[contadorPlayers].transform.rotation);
             player.name = chatCommand.User.Username;
+            player.GetComponent<ArcadeKart>().SetCanMove(false);
             GameObject.FindGameObjectWithTag("CmCam").GetComponent<KartGame.Utilities.CineMachineTargeteer>().RefrescarCoches();
             contadorPlayers++;
             FindObjectOfType<HUD>().AddPlayerList(chatCommand.User);

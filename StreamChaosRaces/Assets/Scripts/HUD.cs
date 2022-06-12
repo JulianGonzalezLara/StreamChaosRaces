@@ -55,5 +55,6 @@ public class HUD : MonoBehaviour
         Leaderboard.GetComponentInChildren<Leaderboard>().FillCarList();
         FindObjectOfType<RaceManager>().numVueltas = int.Parse(numVueltas.text);
         FindObjectOfType<Leaderboard>().numVueltas = int.Parse(numVueltas.text);
+        FindObjectOfType<Leaderboard>().ArrancarCoches();
     }
 }

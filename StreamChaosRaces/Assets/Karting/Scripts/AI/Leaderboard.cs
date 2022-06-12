@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 using TMPro;
+using KartGame.KartSystems;
 
 namespace KartGame.AI
 {
@@ -63,6 +64,14 @@ namespace KartGame.AI
             //sort the cars by number of checkpoints passed (descending=most to least)
             car = car.OrderByDescending(x => x.checkpoints_passed).ToList();
             return car[0];
+        }
+
+        public void ArrancarCoches()
+        {
+            foreach (KartAgent i in car)
+            {
+                i.gameObject.GetComponent<ArcadeKart>().SetCanMove(true);
+            }
         }
     }
 }
