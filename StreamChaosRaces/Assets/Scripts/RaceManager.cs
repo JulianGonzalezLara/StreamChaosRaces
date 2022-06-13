@@ -74,6 +74,7 @@ public class RaceManager : MonoBehaviour
             player = Instantiate(playerPrefab, Spawns[contadorPlayers].transform.position, Spawns[contadorPlayers].transform.rotation);
             player.name = chatCommand.User.Username;
             player.GetComponent<ArcadeKart>().SetCanMove(false);
+            player.gameObject.GetComponentInChildren<TextMeshPro>().text = chatCommand.User.Username;
             GameObject.FindGameObjectWithTag("CmCam").GetComponent<KartGame.Utilities.CineMachineTargeteer>().RefrescarCoches();
             contadorPlayers++;
             FindObjectOfType<HUD>().AddPlayerList(chatCommand.User);

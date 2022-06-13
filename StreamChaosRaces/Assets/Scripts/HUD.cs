@@ -13,6 +13,10 @@ public class HUD : MonoBehaviour
     public GameObject MenuEspera;
     public GameObject Leaderboard;
     public TextMeshProUGUI txtVueltas;
+    public TextMeshProUGUI txtHelpCambio;
+    public TextMeshProUGUI txt3;
+    public TextMeshProUGUI txt2;
+    public TextMeshProUGUI txt1;
 
     [Header("Elementos previos")]
     public TextMeshProUGUI txtListaJugadores;
@@ -55,6 +59,23 @@ public class HUD : MonoBehaviour
         Leaderboard.GetComponentInChildren<Leaderboard>().FillCarList();
         FindObjectOfType<RaceManager>().numVueltas = int.Parse(numVueltas.text);
         FindObjectOfType<Leaderboard>().numVueltas = int.Parse(numVueltas.text);
+        StartCoroutine(CuentaAtras());
+    }
+
+    IEnumerator CuentaAtras()
+    {
+        txtHelpCambio.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1);
+        txt3.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1);
+        txt3.gameObject.SetActive(false);
+        txt2.gameObject.SetActive(true);
+        yield return new WaitForSeconds(1);
+        txt2.gameObject.SetActive(false);
+        txt1.gameObject.SetActive(true);
+        txtHelpCambio.gameObject.SetActive(false);
+        yield return new WaitForSeconds(1);
+        txt1.gameObject.SetActive(false);
         FindObjectOfType<Leaderboard>().ArrancarCoches();
     }
 }

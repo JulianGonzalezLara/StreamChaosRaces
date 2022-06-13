@@ -198,7 +198,7 @@ namespace KartGame.AI
                     //have to first pass finish line to start racing
                     if (other.name == "CheckPoint (0)" && pasoCheckpoint == 0)
                     {
-                        Debug.Log(other.name);
+                        //Debug.Log(other.name);
                         finishLinePass += 1;
                         checkpoint_name = other.name;
                     }
