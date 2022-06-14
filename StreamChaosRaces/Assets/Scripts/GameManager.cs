@@ -1,3 +1,4 @@
+using SpeedTutorMainMenuSystem;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -45,6 +46,11 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void LoadVolverMenu()
+    {
+        StartCoroutine(CargarMenuAsync());
+    }
+
     public void setGameState(GameStates gameState)
     {
         switch (gameState)
@@ -86,5 +92,15 @@ public class GameManager : MonoBehaviour
     public string getChannelName()
     {
         return _channelName;
+    }
+
+    IEnumerator CargarMenuAsync()
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync("MainMenu");
+        while (!operation.isDone)
+        {
+            yield return null;
+        }
+        FindObjectOfType<MenuController>().OcultarConfig();
     }
 }

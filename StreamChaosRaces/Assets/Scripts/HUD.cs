@@ -1,4 +1,5 @@
 using KartGame.AI;
+using SpeedTutorMainMenuSystem;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -12,6 +13,8 @@ public class HUD : MonoBehaviour
     [Header("Menus")]
     public GameObject MenuEspera;
     public GameObject Leaderboard;
+    public GameObject PantallaFinal;
+    public GameObject MenuPausa;
     public TextMeshProUGUI txtVueltas;
     public TextMeshProUGUI txtHelpCambio;
     public TextMeshProUGUI txt3;
@@ -40,8 +43,16 @@ public class HUD : MonoBehaviour
             }
 
             txtNumJugadores.text = string.Format("{0} / {1}", FindObjectOfType<RaceManager>().contadorPlayers, FindObjectOfType<RaceManager>().maxJugadores);
-            
+
         }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                MenuPausa.SetActive(true);
+            }
+        }
+
     }
 
     public void AddPlayerList(TwitchUser user)
@@ -60,6 +71,22 @@ public class HUD : MonoBehaviour
         FindObjectOfType<RaceManager>().numVueltas = int.Parse(numVueltas.text);
         FindObjectOfType<Leaderboard>().numVueltas = int.Parse(numVueltas.text);
         StartCoroutine(CuentaAtras());
+    }
+
+    public void FinalPartida(string nombre)
+    {
+        PantallaFinal.SetActive(true);
+        GameObject.Find("txtNombreGanador").GetComponent<TextMeshProUGUI>().text = nombre;
+    }
+
+    public void volverMenu()
+    {
+        GameManager.Instance.LoadVolverMenu();
+    }
+
+    public void QuitarPausa()
+    {
+        MenuPausa.SetActive(false);
     }
 
     IEnumerator CuentaAtras()

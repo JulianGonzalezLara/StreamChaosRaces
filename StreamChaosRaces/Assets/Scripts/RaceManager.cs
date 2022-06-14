@@ -63,6 +63,7 @@ public class RaceManager : MonoBehaviour
                 partidaFinalizada = true;
                 Debug.Log("Partida finalizada");
                 Debug.Log("El ganador es: " + FindObjectOfType<Leaderboard>().getPrimero().gameObject.name);
+                FindObjectOfType<HUD>().FinalPartida(FindObjectOfType<Leaderboard>().getPrimero().gameObject.name);
             }
         }
     }

@@ -84,6 +84,12 @@ namespace SpeedTutorMainMenuSystem
             menu.SetActive(true);
         }
 
+        public void OcultarConfig()
+        {
+            menuConfigTwitch.SetActive(false);
+            menu.SetActive(true);
+        }
+
         public void BackNewGame()
         {
             menuConfigTwitch.SetActive(true);
