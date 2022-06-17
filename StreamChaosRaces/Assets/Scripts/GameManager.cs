@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
                 SceneManager.LoadScene("Help");
                 break;
             case GameStates.PLAY:
-                SceneManager.LoadScene("Circuito2");
+                SceneManager.LoadScene("Circuito");
                 break;
             case GameStates.END:
                 Application.Quit();

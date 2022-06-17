@@ -20,6 +20,8 @@ public class HUD : MonoBehaviour
     public TextMeshProUGUI txt3;
     public TextMeshProUGUI txt2;
     public TextMeshProUGUI txt1;
+    public Cinemachine.CinemachineVirtualCamera camera1;
+    public Cinemachine.CinemachineVirtualCamera camera2;
 
     [Header("Elementos previos")]
     public TextMeshProUGUI txtListaJugadores;
@@ -76,6 +78,8 @@ public class HUD : MonoBehaviour
     public void FinalPartida(string nombre)
     {
         PantallaFinal.SetActive(true);
+        camera2.gameObject.SetActive(true);
+        camera1.gameObject.SetActive(false);
         GameObject.Find("txtNombreGanador").GetComponent<TextMeshProUGUI>().text = nombre;
     }
 

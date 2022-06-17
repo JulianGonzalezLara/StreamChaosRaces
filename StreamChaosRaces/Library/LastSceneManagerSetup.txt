@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scene_GameManager.unity
+- path: Assets/Scenes/Circuito.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

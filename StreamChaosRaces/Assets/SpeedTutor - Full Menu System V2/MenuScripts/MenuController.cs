@@ -92,8 +92,8 @@ namespace SpeedTutorMainMenuSystem
 
         public void BackNewGame()
         {
-            menuConfigTwitch.SetActive(true);
-            menu.SetActive(false);
+            menuNewGame.SetActive(false);
+            menu.SetActive(true);
         }
 
         public void LoadHelp()
