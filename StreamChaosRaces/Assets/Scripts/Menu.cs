@@ -33,7 +33,7 @@ public class Menu : MonoBehaviour
 
     public void LoadPlay()
     {
-        GameManager.Instance.setGameState(GameStates.PLAY);
+        GameManager.Instance.setGameState(GameStates.CIRCUITO1);
     }
 
     public void Return()

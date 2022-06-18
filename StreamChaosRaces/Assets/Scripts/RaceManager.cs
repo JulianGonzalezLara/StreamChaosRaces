@@ -17,7 +17,7 @@ public class RaceManager : MonoBehaviour
     public string channelName;
 
     public List<Transform> Spawns;
-    public GameObject playerPrefab;
+    public List<GameObject> playerPrefab; //posibles coches para correr
     private GameObject player;
 
     public int contadorPlayers = 0;
@@ -26,6 +26,7 @@ public class RaceManager : MonoBehaviour
     public int vueltaActual = 0;
     public bool partidaEmpezada = false;
     private bool partidaFinalizada = false;
+    public List<KartAgent> car = new List<KartAgent>();
 
     // Start is called before the first frame update
     void Start()
@@ -70,15 +71,32 @@ public class RaceManager : MonoBehaviour
 
     private void OnChatCommandReceived(TwitchChatCommand chatCommand)
     {
-        if (chatCommand.Command == START_COMMAND && partidaEmpezada == false)
-        {
-            player = Instantiate(playerPrefab, Spawns[contadorPlayers].transform.position, Spawns[contadorPlayers].transform.rotation);
-            player.name = chatCommand.User.Username;
-            player.GetComponent<ArcadeKart>().SetCanMove(false);
-            player.gameObject.GetComponentInChildren<TextMeshPro>().text = chatCommand.User.Username;
-            GameObject.FindGameObjectWithTag("CmCam").GetComponent<KartGame.Utilities.CineMachineTargeteer>().RefrescarCoches();
-            contadorPlayers++;
-            FindObjectOfType<HUD>().AddPlayerList(chatCommand.User);
+        if (chatCommand.Command == START_COMMAND && partidaEmpezada == false && contadorPlayers < maxJugadores)
+        {            
+            string nombre = chatCommand.User.Username;
+            Debug.Log(nombre);
+            bool mismoUser = false;
+            foreach (KartAgent i in car)
+            {
+                if(i.gameObject.name.Equals(nombre))
+                {
+                    mismoUser = true;
+                }
+            }
+            if (!mismoUser)
+            {
+                int random = Random.Range(0, playerPrefab.Count);
+                Debug.Log(random);
+                player = Instantiate(playerPrefab[random], Spawns[contadorPlayers].transform.position, Spawns[contadorPlayers].transform.rotation);
+                player.name = chatCommand.User.Username;
+                player.GetComponent<ArcadeKart>().SetCanMove(false);
+                player.gameObject.GetComponentInChildren<TextMeshPro>().text = chatCommand.User.Username;
+                GameObject.FindGameObjectWithTag("CmCam").GetComponent<KartGame.Utilities.CineMachineTargeteer>().RefrescarCoches();
+                contadorPlayers++;
+                FindObjectOfType<HUD>().AddPlayerList(chatCommand.User);
+            }
+
+            FillCarList();
         }
         else
         {
@@ -97,5 +115,15 @@ public class RaceManager : MonoBehaviour
     private void OnMatchBegin()
     {
         TwitchChatClient.instance.SendChatMessage("A new game has started");
+    }
+
+    private void FillCarList()
+    {
+        car.Clear();
+        //get reference to all the cars
+        foreach (KartAgent i in FindObjectsOfType<KartAgent>())
+        {
+            car.Add(i);
+        }
     }
 }

@@ -69,7 +69,12 @@ namespace SpeedTutorMainMenuSystem
 
         public void PlayCircuito1()
         {
-            GameManager.Instance.setGameState(GameStates.PLAY);
+            GameManager.Instance.setGameState(GameStates.CIRCUITO1);
+        }
+
+        public void PlayCircuito2()
+        {
+            GameManager.Instance.setGameState(GameStates.CIRCUITO2);
         }
 
         public void ExitButton()

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public enum GameStates { MENU, PLAY, HELP, END };
+public enum GameStates { MENU, CIRCUITO1, CIRCUITO2, HELP, END };
 
 public class GameManager : MonoBehaviour
 {
@@ -61,8 +61,11 @@ public class GameManager : MonoBehaviour
             case GameStates.HELP:
                 SceneManager.LoadScene("Help");
                 break;
-            case GameStates.PLAY:
+            case GameStates.CIRCUITO1:
                 SceneManager.LoadScene("Circuito");
+                break;
+            case GameStates.CIRCUITO2:
+                SceneManager.LoadScene("Circuito1");
                 break;
             case GameStates.END:
                 Application.Quit();

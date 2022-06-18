@@ -28,9 +28,9 @@ namespace KartGame.AI
         {
             Transform lookat = GameObject.FindGameObjectWithTag("CmCam").GetComponent<Cinemachine.CinemachineVirtualCamera>().Follow;
             //get reference to all the cars
-            foreach (GameObject i in GameObject.FindGameObjectsWithTag("Player"))
+            foreach (KartAgent i in FindObjectsOfType<KartAgent>())
             {
-                car.Add(i.gameObject.GetComponent<KartAgent>());
+                car.Add(i);
                 if (lookat == i)
                     focuscar = car[car.Count - 1].gameObject.name;
             }
