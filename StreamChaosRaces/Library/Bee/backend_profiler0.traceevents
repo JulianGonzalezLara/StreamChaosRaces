@@ -1,0 +1,747 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655655173529017, "dur":1525, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655173530561, "dur":352, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655655173531001, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655655173531036, "dur":542, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655655173531606, "dur":567, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655173532173, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249219, "dur":255, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249474, "dur":65, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249540, "dur":16, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249556, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249567, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249569, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249574, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249576, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249582, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249583, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249589, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249590, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249595, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249596, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249601, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249602, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249608, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249610, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249615, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249616, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249622, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249623, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249628, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249629, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249634, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249644, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174249661, "dur":2252, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655655173532030, "dur":150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173532180, "dur":7303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173539493, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1655655173539749, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173539879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173571467, "dur":74208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1655655173645744, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces.exe" }}
+,{ "pid":12345, "tid":1, "ts":1655655173646199, "dur":18149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173664360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173664405, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces.exe" }}
+,{ "pid":12345, "tid":1, "ts":1655655173666760, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173666838, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173666866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173666872, "dur":110026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173776918, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173776934, "dur":325, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173777270, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173777275, "dur":105500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173882791, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173882813, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173882857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173882863, "dur":26755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173909631, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173909646, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173909805, "dur":62, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173909872, "dur":39292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173949181, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173949199, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173949227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173949234, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173950821, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173950840, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173950882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173950888, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173951820, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655173951833, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173951853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655173951857, "dur":65279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174017146, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174017155, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174017172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174017175, "dur":557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174017740, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174017749, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174017765, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174017768, "dur":66538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174084322, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174084337, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174084364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174084367, "dur":6065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174090448, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174090464, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174090492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174090497, "dur":127386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655655174217903, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1655655174218082, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174218198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174218202, "dur":3572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1655655174221791, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1655655174221810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174221815, "dur":6164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level3" }}
+,{ "pid":12345, "tid":1, "ts":1655655174228192, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1655655174228367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655655174228370, "dur":4964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1655655174233347, "dur":15910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173532064, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173532191, "dur":7313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173539504, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1655655173539737, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173539816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173664376, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1655655173666873, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173666929, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173666990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173666995, "dur":110851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173777862, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173778336, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173778535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173778542, "dur":103873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173882438, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173882456, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173882509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173882512, "dur":2866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173885388, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173885398, "dur":20800, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173906211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173906220, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173909786, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655173909866, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173909965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655173909969, "dur":209287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655174119269, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655174119284, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655174119326, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655174119330, "dur":8916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655174128264, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655174128280, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655174128313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655174128317, "dur":39689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655174168023, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655174168038, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655174168248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655174168253, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Google.Protobuf.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655655174171945, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655655174172240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655655174172245, "dur":59882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655655174232141, "dur":17083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173532058, "dur":128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173532187, "dur":7299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173539493, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1655655173539647, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173539678, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173577153, "dur":68604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1655655173645823, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1655655173645925, "dur":18466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173664401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173664907, "dur":36070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1655655173701054, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173701083, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173701108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173701114, "dur":78029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173779157, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173779170, "dur":79079, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173858262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173858271, "dur":24985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173883273, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173883289, "dur":1447, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173884769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173884775, "dur":24261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173909055, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173909100, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173909138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173909143, "dur":84127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173993283, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173993294, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173993331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173993335, "dur":602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173993945, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655173993955, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173993971, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655173993974, "dur":37373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174031367, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174031548, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174031576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174031582, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174032466, "dur":519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174032986, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174033016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174033020, "dur":10546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174043590, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174044097, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174044127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174044131, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174045516, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174045696, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174045730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174045734, "dur":21410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174067165, "dur":453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174067618, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174067653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174067656, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174069385, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174069827, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174069851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174069854, "dur":14123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174083990, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174084649, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174084679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174084683, "dur":6438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174091131, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174091358, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174091383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174091386, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Barracuda.ONNX.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174092208, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174092416, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174092447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174092451, "dur":25274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Barracuda.BurstBLAS.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174117740, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174117753, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174117792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174117796, "dur":7617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174125426, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174125441, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174125466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174125470, "dur":93215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.IO.Abstractions.TestingHelpers.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655655174218710, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655655174218730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174218734, "dur":8920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1655655174227673, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1655655174227693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655655174227699, "dur":8100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1655655174235817, "dur":13442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173532089, "dur":105, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173532195, "dur":7305, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173539501, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1655655173539744, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173539883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173664365, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1655655173666623, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173666651, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173666699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173666704, "dur":111605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173778333, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173778350, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173778387, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173778391, "dur":104877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173883282, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173883305, "dur":1430, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173884764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173884769, "dur":24382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173909170, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173909184, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173909228, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173909232, "dur":33199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173942452, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173942470, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173942577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173942586, "dur":6606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173949208, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655173949223, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173949250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655173949255, "dur":135410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174084684, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174085125, "dur":5003, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174090136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174090169, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174091257, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174091685, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174091716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174091719, "dur":25616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Barracuda.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174117369, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/TwitchChatConnect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174117581, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174117652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174117679, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/TwitchChatConnect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174119616, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174119629, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174119654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174119658, "dur":7306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174126980, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174126998, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174127026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174127030, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Interactive.Async.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174129364, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174129384, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174129500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174129508, "dur":41820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655655174171342, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1655655174171393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655655174171398, "dur":73343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1655655174244755, "dur":4509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173532115, "dur":84, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173532199, "dur":7290, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173539493, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1655655173539751, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173539896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173540966, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1655655173543730, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1655655173543841, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173543863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173543868, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1655655173545031, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1655655173545164, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173545248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173545253, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1655655173546447, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173546551, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173546577, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173546746, "dur":98500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173645342, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1655655173645484, "dur":18865, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173664357, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173664365, "dur":3817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1655655173668253, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173668269, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173668292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173668295, "dur":106579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173774897, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173774919, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173774964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173774971, "dur":108100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173883091, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173883110, "dur":1627, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173884771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173884776, "dur":65403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173950202, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655173950216, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173950412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655173950417, "dur":268244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655655174218682, "dur":1762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1655655174220445, "dur":1043, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655174222573, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655174222583, "dur":6132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1655655174228729, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1655655174228882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655655174228886, "dur":4425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1655655174233323, "dur":15927, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173532135, "dur":69, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173532204, "dur":7286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173539492, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1655655173539802, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173539889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173540964, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1655655173543574, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1655655173543652, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173543672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173543684, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1655655173544712, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1655655173544829, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173544884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173544890, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1655655173546228, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1655655173546379, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173546432, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173546437, "dur":99396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1655655173645890, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655173645908, "dur":18439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173664358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173664883, "dur":110444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655173775342, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655173775355, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173775383, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173775386, "dur":134080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655173909482, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655173909498, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173909525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655173909529, "dur":208533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174118077, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174118092, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174118129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174118133, "dur":7035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174125185, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174125203, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174125325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174125332, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174127788, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174127800, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174128156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174128159, "dur":39360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174167531, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174167544, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174167573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174167599, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Grpc.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174169107, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174169303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174169307, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655655174172497, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1655655174172536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174172540, "dur":55960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1655655174228661, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1655655174228682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655655174228685, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1655655174232847, "dur":16389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173532158, "dur":50, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173532208, "dur":7291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173539500, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1655655173539756, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173539793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173665141, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1655655173666812, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173666837, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173666867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173666872, "dur":110079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173776979, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173776996, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173777283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173777288, "dur":81538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173858844, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173858870, "dur":20786, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173879670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173879683, "dur":69726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173949423, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173949436, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173949486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173949490, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173951184, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173951196, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173951255, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173951259, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173952650, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173952662, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173952682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173952686, "dur":46400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173999098, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655173999114, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173999134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655173999138, "dur":32277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174031428, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174031835, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174031911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174031917, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174033054, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174033073, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174033104, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174033110, "dur":10371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174043498, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174043668, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174043697, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174043702, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174044762, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174044928, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174044958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174044964, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174045761, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174045885, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174045907, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174045910, "dur":21273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174067197, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174067398, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174067439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174067446, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174068574, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174068748, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174068807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174068811, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174069932, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174070073, "dur":9967, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174080049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174080057, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174084715, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174084728, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174084770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174084775, "dur":83335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174168121, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174168134, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174168247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174168251, "dur":3291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655655174171557, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1655655174171575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174171587, "dur":56869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1655655174228470, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1655655174228485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655655174228489, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1655655174231886, "dur":17339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173532179, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173532179, "dur":7296, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173539493, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1655655173539495, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173539558, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1655655173539559, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173539586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173540227, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1655655173543259, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1655655173543391, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173543427, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173543842, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1655655173544962, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1655655173545051, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173545071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173545075, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1655655173546362, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173546481, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173546511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173546773, "dur":99404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173646221, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173646232, "dur":18148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173664405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173664887, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173666579, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173666602, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173666626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173666642, "dur":111908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173778573, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173778590, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173778634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173778638, "dur":106240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173884894, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173884912, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173884958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173884962, "dur":65265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173950238, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655173950251, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173950407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655173950412, "dur":117115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174067553, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174067739, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174067772, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174067777, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174069187, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174069346, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174069395, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174069398, "dur":14544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174083956, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174084163, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174084241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174084245, "dur":6202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ML-Agents.CommunicatorObjects.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174090461, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174090475, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174090574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174090578, "dur":126850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655655174217447, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1655655174217468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174217475, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1655655174221891, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1655655174221908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174221911, "dur":6426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1655655174228352, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1655655174228368, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655655174228371, "dur":4304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1655655174232689, "dur":16548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173532210, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173532210, "dur":7286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173539499, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1655655173539774, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173539872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173570438, "dur":75337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1655655173645842, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173645861, "dur":18536, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173664636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173665046, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173666783, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173666800, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173666850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173666854, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173668668, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173668687, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173669618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173669629, "dur":107973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173777616, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173777630, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173777718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173777722, "dur":105062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173882812, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173882830, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173882878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173882883, "dur":26429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173909326, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655173909365, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173909392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655173909397, "dur":218230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655174128050, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655174128068, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655174128107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655174128132, "dur":40863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655174169250, "dur":12770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655174182026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655174182064, "dur":32615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655655174214695, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1655655174214714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655174214719, "dur":14804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1655655174229547, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1655655174229705, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655174229945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655655174229948, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1655655174233465, "dur":15784, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173532249, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173532250, "dur":7243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173539496, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1655655173539712, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173539740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173546042, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1655655173547546, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173547638, "dur":97078, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173644726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173644732, "dur":56254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173701066, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173701089, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173701114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173701118, "dur":77261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173778396, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173778420, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173778532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173778538, "dur":102177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173880732, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173880748, "dur":1550, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173882307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173882342, "dur":67775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173950137, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655173950154, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173950182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655173950188, "dur":93370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174043572, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174043852, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174043939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174043946, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174045220, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174045798, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174045830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174045850, "dur":21833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174067700, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174067859, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174067939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174067943, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174069135, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174069353, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174069380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174069386, "dur":11657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174081062, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174081411, "dur":2197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174083614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174083621, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.ML-Agents.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174085162, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174085174, "dur":4955, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174090137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174090143, "dur":77270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174167432, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174167670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174167676, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/KartGame.AI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655655174170382, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1655655174170404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174170430, "dur":4576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1655655174175032, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1655655174175054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174175060, "dur":44239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1655655174219323, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1655655174219345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174219351, "dur":8760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1655655174228129, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1655655174228148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655655174228154, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1655655174231573, "dur":17638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173532274, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173532274, "dur":7234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173539508, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1655655173539749, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173539877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173664480, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1655655173667504, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655173667528, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173667622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173667626, "dur":107841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655173775478, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655173775487, "dur":1414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173776946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173776955, "dur":107874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655173884846, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655173884867, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173884955, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173884961, "dur":65843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655173950821, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655173950848, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173950886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655173950892, "dur":167206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174118113, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174118151, "dur":688, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174118844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174118855, "dur":6814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174125687, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174125705, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174125755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174125760, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.IO.Abstractions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174129429, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174129441, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174129509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174129514, "dur":39247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174168775, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174169099, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174169164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174169168, "dur":3293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655655174172477, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1655655174172501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655655174172535, "dur":75322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1655655174247869, "dur":1344, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173532302, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173532303, "dur":7210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173539514, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1655655173539747, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173539832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173664405, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1655655173666955, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173666976, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173666997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173667001, "dur":111461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173778478, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173778495, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173778590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173778595, "dur":104383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173882993, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173883007, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173883038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173883042, "dur":23567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173906630, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173906648, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173906795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173906800, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173910252, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173910265, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173910292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173910296, "dur":39948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173950259, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173950272, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173950407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173950412, "dur":19861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173970286, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655173970301, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173970319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655173970324, "dur":35685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174006022, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174006033, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174006053, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174006057, "dur":7952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174014025, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174014041, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174014067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174014073, "dur":113196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174127283, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174127296, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174127360, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174127364, "dur":39692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174167074, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174167307, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174167362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174167368, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Managed/KartGame.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174169502, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174169524, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174169567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174170298, "dur":43386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/Plugins/x86_64/grpc_csharp_ext.x64.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655655174213709, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1655655174213731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655655174213737, "dur":35271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/StreamChaosRacesBuild/StreamChaosRaces_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1655655174249024, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1655655174249027, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655655174253066, "dur":2365, "ph":"X", "name": "ProfilerWriteOutput" }
+,

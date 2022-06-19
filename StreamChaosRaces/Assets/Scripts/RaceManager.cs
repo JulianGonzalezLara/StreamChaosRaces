@@ -56,7 +56,15 @@ public class RaceManager : MonoBehaviour
     {
         if (FindObjectOfType<Leaderboard>().car.Count > 0 && partidaFinalizada == false)
         {
-            GameObject.Find("txtVueltas").GetComponent<TextMeshProUGUI>().text = string.Format("{0} / {1}", FindObjectOfType<Leaderboard>().getPrimero().gameObject.GetComponent<KartAgent>().finishLinePass, numVueltas);
+            GameObject primero = FindObjectOfType<Leaderboard>().getPrimero().gameObject;
+            foreach(KartAgent i in car)
+            {
+                if (i.finishLinePass > primero.GetComponent<KartAgent>().finishLinePass)
+                {
+                    primero = i.gameObject;
+                }
+            }
+            /*GameObject.Find("txtVueltas").GetComponent<TextMeshProUGUI>().text = string.Format("{0} / {1}", FindObjectOfType<Leaderboard>().getPrimero().gameObject.GetComponent<KartAgent>().finishLinePass, numVueltas);
             
             if(FindObjectOfType<Leaderboard>().getPrimero().gameObject.GetComponent<KartAgent>().finishLinePass == numVueltas + 1)
             {
@@ -65,6 +73,17 @@ public class RaceManager : MonoBehaviour
                 Debug.Log("Partida finalizada");
                 Debug.Log("El ganador es: " + FindObjectOfType<Leaderboard>().getPrimero().gameObject.name);
                 FindObjectOfType<HUD>().FinalPartida(FindObjectOfType<Leaderboard>().getPrimero().gameObject.name);
+            }*/
+
+            GameObject.Find("txtVueltas").GetComponent<TextMeshProUGUI>().text = string.Format("{0} / {1}", primero.GetComponent<KartAgent>().finishLinePass, numVueltas);
+
+            if (primero.GetComponent<KartAgent>().finishLinePass == numVueltas + 1)
+            {
+                //final partida
+                partidaFinalizada = true;
+                Debug.Log("Partida finalizada");
+                Debug.Log("El ganador es: " + primero.name);
+                FindObjectOfType<HUD>().FinalPartida(primero.name);
             }
         }
     }

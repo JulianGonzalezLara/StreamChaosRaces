@@ -99,7 +99,6 @@ namespace KartGame.AI
         bool m_EndEpisode;
         float m_LastAccumulatedReward;
 
-        [HideInInspector]
         public int checkpoints_passed = 0;
         public int finishLinePass = 0;
         private string checkpoint_name = "";
